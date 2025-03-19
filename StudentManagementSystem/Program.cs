@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using StudentManagementSystem.Data;
+using static StudentManagementSystem.Data.ApplicationDbContext;
+
 namespace StudentManagementSystem
 {
     public class Program
@@ -8,6 +12,8 @@ namespace StudentManagementSystem
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
