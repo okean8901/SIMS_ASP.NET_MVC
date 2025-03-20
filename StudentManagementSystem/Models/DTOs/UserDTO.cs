@@ -10,5 +10,6 @@
         public string Address { get; set; }
         public string Major { get; set; }
         public int BatchYear { get; set; }
+        public bool IsRegisteredSuccessfully { get; set; }
     }
 }

@@ -12,7 +12,7 @@ using StudentManagementSystem.Data;
 namespace StudentManagementSystem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250319101301_InitialCreate")]
+    [Migration("20250320090658_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

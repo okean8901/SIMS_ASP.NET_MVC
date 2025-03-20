@@ -28,12 +28,16 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/Shared/Error.cshtml]

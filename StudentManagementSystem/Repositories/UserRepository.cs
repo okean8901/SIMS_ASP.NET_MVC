@@ -44,5 +44,11 @@ namespace StudentManagementSystem.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+        // Thêm phương thức mới
+        public async Task<User> GetByUsernameAsync(string username)
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
+        }
     }
 }

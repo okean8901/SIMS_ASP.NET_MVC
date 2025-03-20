@@ -4,7 +4,8 @@
     "\\Controllers",
     "\\Data",
     "\\Models",
-    "\\Models\\Entities"
+    "\\Models\\Entities",
+    "\\Repositories"
   ],
   "SelectedNode": "\\StudentManagementSystem.sln",
   "PreviewInSolutionExplorer": false
