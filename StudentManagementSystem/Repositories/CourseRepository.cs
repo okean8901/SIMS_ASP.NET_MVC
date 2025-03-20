@@ -44,5 +44,35 @@ namespace StudentManagementSystem.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+        Task<Course> IRepository<Course>.GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<IEnumerable<Course>> IRepository<Course>.GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRepository<Course>.AddAsync(Course entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRepository<Course>.UpdateAsync(Course entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRepository<Course>.DeleteAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<Course> IRepository<Course>.GetByUsernameAsync(string username)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

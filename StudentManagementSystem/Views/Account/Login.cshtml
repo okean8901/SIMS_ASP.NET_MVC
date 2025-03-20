@@ -1,0 +1,30 @@
+﻿<h2>Login</h2>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<form asp-controller="Account" asp-action="Login" method="post">
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" name="username" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+    <a asp-action="Register" asp-controller="Account" class="btn btn-secondary">Register</a>
+</form>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <script>
+        alert('@TempData["SuccessMessage"]');
+    </script>
+}

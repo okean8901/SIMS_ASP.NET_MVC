@@ -52,5 +52,35 @@ namespace StudentManagementSystem.Repositories
                 .Include(e => e.Course)
                 .ToListAsync();
         }
+
+        Task<Enrollment> IRepository<Enrollment>.GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<IEnumerable<Enrollment>> IRepository<Enrollment>.GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRepository<Enrollment>.AddAsync(Enrollment entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRepository<Enrollment>.UpdateAsync(Enrollment entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRepository<Enrollment>.DeleteAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<Enrollment> IRepository<Enrollment>.GetByUsernameAsync(string username)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

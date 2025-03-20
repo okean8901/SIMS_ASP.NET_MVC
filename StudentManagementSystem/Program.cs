@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using StudentManagementSystem.Data;
+using StudentManagementSystem.Models.Entities;
+using StudentManagementSystem.Repositories;
 using static StudentManagementSystem.Data.ApplicationDbContext;
 
 namespace StudentManagementSystem
@@ -15,6 +17,8 @@ namespace StudentManagementSystem
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+            builder.Services.AddScoped<IRepository<User>, UserRepository>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -27,9 +31,10 @@ namespace StudentManagementSystem
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseAuthentication();
 
             app.UseRouting();
-
+            
             app.UseAuthorization();
 
             app.MapControllerRoute(
