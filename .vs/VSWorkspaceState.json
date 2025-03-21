@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\StudentManagementSystem",
-    "\\StudentManagementSystem\\Data",
-    "\\StudentManagementSystem\\Migrations"
+    "\\StudentManagementSystem\\Data"
   ],
-  "SelectedNode": "\\StudentManagementSystem.sln",
+  "SelectedNode": "\\StudentManagementSystem\\StudentManagementSystem.sln",
   "PreviewInSolutionExplorer": false
 }

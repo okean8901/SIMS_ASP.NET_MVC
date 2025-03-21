@@ -45,32 +45,13 @@ namespace StudentManagementSystem.Repositories
             }
         }
 
-        Task<Role> IRepository<Role>.GetByIdAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<IEnumerable<Role>> IRepository<Role>.GetAllAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        Task IRepository<Role>.AddAsync(Role entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task IRepository<Role>.UpdateAsync(Role entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task IRepository<Role>.DeleteAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
+        // Sửa các phương thức không cần thiết trong giao diện IRepository<Role>
         Task<Role> IRepository<Role>.GetByUsernameAsync(string username)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IRepository<Role>.AssignRoleAsync(int userId, string roleName)
         {
             throw new NotImplementedException();
         }

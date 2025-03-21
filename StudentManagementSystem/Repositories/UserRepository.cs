@@ -45,10 +45,33 @@ namespace StudentManagementSystem.Repositories
             }
         }
 
-        // Thêm phương thức mới
         public async Task<User> GetByUsernameAsync(string username)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
+            return await _context.Users.Include(u => u.UserRoles).ThenInclude(ur => ur.Role).FirstOrDefaultAsync(u => u.Username == username);
+        }
+
+        public async Task AssignRoleAsync(int userId, string roleName)
+        {
+            var role = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == roleName);
+            if (role == null)
+            {
+                role = new Role { RoleName = roleName };
+                _context.Roles.Add(role);
+                await _context.SaveChangesAsync();
+            }
+
+            var existingUserRole = await _context.UserRoles
+                .FirstOrDefaultAsync(ur => ur.UserId == userId && ur.RoleId == role.RoleId);
+            if (existingUserRole == null)
+            {
+                var userRole = new UserRole
+                {
+                    UserId = userId,
+                    RoleId = role.RoleId
+                };
+                _context.UserRoles.Add(userRole);
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }

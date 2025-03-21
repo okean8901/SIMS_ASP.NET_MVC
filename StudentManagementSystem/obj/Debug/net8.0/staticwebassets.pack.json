@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\StudentManagementSystem.7cetiexh1r.bundle.scp.css"
     },
     {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\assets\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\logo.png"
+    },
+    {
       "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

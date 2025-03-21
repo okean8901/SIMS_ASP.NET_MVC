@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yUBjhI1idZnyVCylDF+Jph1Ijx1t1aH7nNXHN49mVwU=",
+  "Hash": "GzQ5eB+pRchBqAeV8nk8SfDv2EXziDUPTQJMYflUWws=",
   "Source": "StudentManagementSystem",
   "BasePath": "_content/StudentManagementSystem",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\StudentManagementSystem.bundle.scp.css"
     },
     {
+      "Identity": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\assets\\logo.png",
+      "SourceId": "StudentManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\",
+      "BasePath": "_content/StudentManagementSystem",
+      "RelativePath": "assets/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4vzw08kx7",
+      "Integrity": "rdfP6aBNiFeb/jb1ZL1Mk/jPGOUR1f9mMIaJOLhaoJc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\logo.png"
+    },
+    {
       "Identity": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\site.css",
       "SourceId": "StudentManagementSystem",
       "SourceType": "Discovered",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "br2icujn4y",
+      "Integrity": "iW1+wb/TW+7LThIWtEW4pxcn01To2CcjUvk6gA2UQ3g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1321,8 +1342,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\site.css",
+      "Route": "assets/logo.j4vzw08kx7.png",
+      "AssetFile": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\assets\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1331,19 +1352,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1619114"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"rdfP6aBNiFeb/jb1ZL1Mk/jPGOUR1f9mMIaJOLhaoJc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 08:47:01 GMT"
+          "Value": "Thu, 14 Nov 2024 00:56:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,7 +1374,89 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "j4vzw08kx7"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rdfP6aBNiFeb/jb1ZL1Mk/jPGOUR1f9mMIaJOLhaoJc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/logo.png",
+      "AssetFile": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\assets\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1619114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rdfP6aBNiFeb/jb1ZL1Mk/jPGOUR1f9mMIaJOLhaoJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 00:56:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rdfP6aBNiFeb/jb1ZL1Mk/jPGOUR1f9mMIaJOLhaoJc="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.br2icujn4y.css",
+      "AssetFile": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26805"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iW1+wb/TW+7LThIWtEW4pxcn01To2CcjUvk6gA2UQ3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 02:12:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "br2icujn4y"
         },
         {
           "Name": "label",
@@ -1361,7 +1464,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-iW1+wb/TW+7LThIWtEW4pxcn01To2CcjUvk6gA2UQ3g="
         }
       ]
     },
@@ -1376,7 +1479,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "26805"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1487,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"iW1+wb/TW+7LThIWtEW4pxcn01To2CcjUvk6gA2UQ3g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 08:47:01 GMT"
+          "Value": "Fri, 21 Mar 2025 02:12:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1501,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-iW1+wb/TW+7LThIWtEW4pxcn01To2CcjUvk6gA2UQ3g="
         }
       ]
     },

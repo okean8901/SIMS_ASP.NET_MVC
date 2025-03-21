@@ -50,6 +50,12 @@ namespace StudentManagementSystem.Data
                 .HasForeignKey<Student>(s => s.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            modelBuilder.Entity<User>()
+                .HasOne(u => u.Role)
+                .WithMany()
+                .HasForeignKey(u => u.RoleId)
+                .OnDelete(DeleteBehavior.SetNull); // Thêm quan hệ với Role
+
             // Role relationships
             modelBuilder.Entity<Role>()
                 .HasMany(r => r.UserRoles)
@@ -62,7 +68,7 @@ namespace StudentManagementSystem.Data
                 .HasOne(c => c.Faculty)
                 .WithMany()
                 .HasForeignKey(c => c.FacultyUserId)
-                .OnDelete(DeleteBehavior.NoAction); // Changed to NoAction
+                .OnDelete(DeleteBehavior.NoAction);
 
             modelBuilder.Entity<Course>()
                 .HasMany(c => c.Enrollments)
@@ -75,14 +81,14 @@ namespace StudentManagementSystem.Data
                 .HasOne(e => e.Student)
                 .WithMany(s => s.Enrollments)
                 .HasForeignKey(e => e.StudentId)
-                .OnDelete(DeleteBehavior.NoAction); // Changed to NoAction
+                .OnDelete(DeleteBehavior.NoAction);
 
             // Student relationships
             modelBuilder.Entity<Student>()
                 .HasMany(s => s.Enrollments)
                 .WithOne(e => e.Student)
                 .HasForeignKey(e => e.StudentId)
-                .OnDelete(DeleteBehavior.NoAction); // Changed to NoAction
+                .OnDelete(DeleteBehavior.NoAction);
 
             // Default values
             modelBuilder.Entity<User>()
@@ -109,5 +115,7 @@ namespace StudentManagementSystem.Data
                 .Property(ur => ur.AssignedAt)
                 .HasDefaultValueSql("GETDATE()");
         }
+
     }
+
 }
