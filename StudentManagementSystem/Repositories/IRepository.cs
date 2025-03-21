@@ -8,5 +8,6 @@
         Task UpdateAsync(T entity);
         Task DeleteAsync(int id);
         Task<T> GetByUsernameAsync(string username);
+        Task AssignRoleAsync(int userId, string v);
     }
 }

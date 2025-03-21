@@ -1,69 +1,162 @@
 ﻿@model StudentManagementSystem.Models.DTOs.UserDTO
+@{
+    ViewData["Title"] = "Đăng ký tài khoản";
+}
 
-<h2>Register</h2>
-
-<form asp-action="Register" method="post">
-    <div class="form-group">
-        <label asp-for="Username"></label>
-        <input asp-for="Username" class="form-control" required />
-        <span asp-validation-for="Username" class="text-danger"></span>
+<div class="ocean-header register-header">
+    <div class="wave-container">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
     </div>
-
-    <div class="form-group">
-        <label asp-for="Password"></label>
-        <input asp-for="Password" type="password" class="form-control" required />
-        <span asp-validation-for="Password" class="text-danger"></span>
+    <div class="university-logo">
+        <img src="/assets/logo.png" alt="Okean University Logo" onerror="this.src='/api/placeholder/100/100'; this.onerror=null;" />
+        <h1 class="university-name">Okean University</h1>
     </div>
+</div>
 
-    <div class="form-group">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" type="email" class="form-control" required />
-        <span asp-validation-for="Email" class="text-danger"></span>
+<div class="container">
+    <div class="register-container">
+        <div class="register-box">
+            <div class="register-header">
+                <h2>Đăng ký tài khoản</h2>
+                <p class="register-subtitle">Okean University - Hệ thống quản lý sinh viên</p>
+            </div>
+
+            <form asp-action="Register" method="post" class="register-form">
+                <div class="form-row">
+                    <div class="form-group col-md-6 animated-input">
+                        <input asp-for="Username" class="form-control" id="username" required />
+                        <label asp-for="Username">Tên đăng nhập</label>
+                        <span class="input-focus-border"></span>
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group col-md-6 animated-input">
+                        <input asp-for="Password" type="password" class="form-control" id="password" required />
+                        <label asp-for="Password">Mật khẩu</label>
+                        <span class="input-focus-border"></span>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6 animated-input">
+                        <input asp-for="Email" type="email" class="form-control" id="email" required />
+                        <label asp-for="Email">Email</label>
+                        <span class="input-focus-border"></span>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group col-md-6 animated-input">
+                        <input asp-for="FullName" class="form-control" id="fullname" required />
+                        <label asp-for="FullName">Họ và tên</label>
+                        <span class="input-focus-border"></span>
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6 animated-input date-input">
+                        <input asp-for="DateOfBirth" type="date" class="form-control" id="dateofbirth" required />
+                        <label asp-for="DateOfBirth">Ngày sinh</label>
+                        <span class="input-focus-border"></span>
+                        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group col-md-6 animated-input">
+                        <input asp-for="Address" class="form-control" id="address" required />
+                        <label asp-for="Address">Địa chỉ</label>
+                        <span class="input-focus-border"></span>
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6 animated-input">
+                        <input asp-for="Major" class="form-control" id="major" required />
+                        <label asp-for="Major">Chuyên ngành</label>
+                        <span class="input-focus-border"></span>
+                        <span asp-validation-for="Major" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group col-md-6 animated-input">
+                        <input asp-for="BatchYear" type="number" class="form-control" id="batchyear" required />
+                        <label asp-for="BatchYear">Năm nhập học</label>
+                        <span class="input-focus-border"></span>
+                        <span asp-validation-for="BatchYear" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-12 animated-input">
+                        <select asp-for="Role" class="form-control" id="role">
+                            <option value="Student">Học sinh</option>
+                            <option value="Teacher">Giáo viên</option>
+                            <option value="Admin">Khác</option>
+                        </select>
+                        <label asp-for="Role">Vai trò</label>
+                        <span class="input-focus-border"></span>
+                        <span asp-validation-for="Role" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="register-actions">
+                    <button type="submit" class="btn btn-ocean-register btn-block">Đăng ký</button>
+                    <div class="login-link">
+                        Đã có tài khoản? <a asp-action="Login" asp-controller="Account">Đăng nhập</a>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
+</div>
 
-    <div class="form-group">
-        <label asp-for="FullName"></label>
-        <input asp-for="FullName" class="form-control" required />
-        <span asp-validation-for="FullName" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="DateOfBirth"></label>
-        <input asp-for="DateOfBirth" type="date" class="form-control" required />
-        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="Address"></label>
-        <input asp-for="Address" class="form-control" required />
-        <span asp-validation-for="Address" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="Major"></label>
-        <input asp-for="Major" class="form-control" required />
-        <span asp-validation-for="Major" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="BatchYear"></label>
-        <input asp-for="BatchYear" type="number" class="form-control" required />
-        <span asp-validation-for="BatchYear" class="text-danger"></span>
-    </div>
-
-    <button type="submit" class="btn btn-primary">Register</button>
-    <a asp-action="Login" class="btn btn-secondary">Back to Login</a>
-</form>
-
-<!-- Thêm logic hiển thị alert và redirect -->
 @if (Model != null && Model.IsRegisteredSuccessfully)
 {
     <script>
-        alert("Đăng ký thành công!");
-        window.location.href = '@Url.Action("Login", "Account")'; // Điều chỉnh "Account" theo tên controller của bạn
+        document.addEventListener('DOMContentLoaded', function() {
+            Swal.fire({
+                title: 'Thành công!',
+                text: 'Đăng ký tài khoản thành công!',
+                icon: 'success',
+                confirmButtonText: 'Đăng nhập ngay',
+                confirmButtonColor: '#1a73e8'
+            }).then((result) => {
+                window.location.href = '@Url.Action("Login", "Account")';
+            });
+        });
     </script>
 }
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const inputs = document.querySelectorAll('.animated-input input, .animated-input select');
+
+        inputs.forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.classList.add('focused');
+            });
+
+            input.addEventListener('blur', function() {
+                if (this.value === '') {
+                    this.parentElement.classList.remove('focused');
+                }
+            });
+
+            if (input.value !== '') {
+                input.parentElement.classList.add('focused');
+            }
+        });
+
+        const dateInputs = document.querySelectorAll('input[type="date"]');
+        dateInputs.forEach(input => {
+            input.parentElement.classList.add('date-input');
+            input.parentElement.classList.add('focused');
+        });
+    });
+</script>
+
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 }

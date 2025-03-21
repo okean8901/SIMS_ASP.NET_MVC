@@ -10,6 +10,7 @@
         public string Address { get; set; }
         public string Major { get; set; }
         public int BatchYear { get; set; }
+        public string Role { get; set; } // Không cần [Required], để trống sẽ là Admin
         public bool IsRegisteredSuccessfully { get; set; }
     }
 }

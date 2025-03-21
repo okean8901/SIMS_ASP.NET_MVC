@@ -242,11 +242,16 @@ namespace StudentManagementSystem.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("RoleId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("UserId");
+
+                    b.HasIndex("RoleId");
 
                     b.ToTable("User", (string)null);
                 });
@@ -324,6 +329,16 @@ namespace StudentManagementSystem.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("StudentManagementSystem.Models.Entities.User", b =>
+                {
+                    b.HasOne("StudentManagementSystem.Models.Entities.Role", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("Role");
                 });
 
             modelBuilder.Entity("StudentManagementSystem.Models.Entities.UserRole", b =>

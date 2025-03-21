@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using StudentManagementSystem.Data;
 using StudentManagementSystem.Models.Entities;
 using StudentManagementSystem.Repositories;
@@ -14,10 +14,19 @@ namespace StudentManagementSystem
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddAuthentication("CookieAuth")
+                .AddCookie("CookieAuth", options =>
+                {
+                    options.LoginPath = "/Account/Login";
+                    options.AccessDeniedPath = "/Account/AccessDenied";
+                });
 
+            // Đăng ký DI cho repository
             builder.Services.AddScoped<IRepository<User>, UserRepository>();
+            builder.Services.AddScoped<IRepository<Role>, RoleRepository>();
+            builder.Services.AddScoped<IRepository<Student>, StudentRepository>();
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
@@ -25,16 +34,15 @@ namespace StudentManagementSystem
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseAuthentication();
 
             app.UseRouting();
-            
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

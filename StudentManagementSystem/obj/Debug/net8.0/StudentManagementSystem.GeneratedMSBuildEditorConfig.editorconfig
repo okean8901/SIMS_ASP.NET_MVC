@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +50,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/Teacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [T:/Source code c\#/APDP_ASM_GR2/APDP_SIMS_GR2_SE06304/StudentManagementSystem/Views/_ViewImports.cshtml]

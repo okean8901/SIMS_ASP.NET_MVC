@@ -74,5 +74,10 @@ namespace StudentManagementSystem.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public Task AssignRoleAsync(int userId, string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -1,4 +1,5 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StudentManagementSystem.Models;
 using StudentManagementSystem.Models.Entities;
@@ -20,6 +21,22 @@ public class HomeController : Controller
     }
 
     public IActionResult Privacy()
+    {
+        return View();
+    }
+    [Authorize] // Chỉ user đã đăng nhập mới truy cập được
+    public IActionResult Home()
+    {
+        return View();
+    }
+
+    [Authorize(Roles = "Admin")] // Chỉ Admin truy cập được
+    public IActionResult AdminDashboard()
+    {
+        return View();
+    }
+    [Authorize(Roles = "Teacher")] // Trang chỉ dành cho Teacher
+    public IActionResult TeacherDashboard()
     {
         return View();
     }
