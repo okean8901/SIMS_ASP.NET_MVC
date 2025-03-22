@@ -25,6 +25,9 @@ namespace StudentManagementSystem
             builder.Services.AddScoped<IRepository<User>, UserRepository>();
             builder.Services.AddScoped<IRepository<Role>, RoleRepository>();
             builder.Services.AddScoped<IRepository<Student>, StudentRepository>();
+            builder.Services.AddScoped<IRepository<Course>, CourseRepository>();
+            builder.Services.AddScoped<CourseRepository>();
+            builder.Services.AddScoped<UserRepository>();
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 

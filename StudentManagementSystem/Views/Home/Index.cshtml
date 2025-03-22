@@ -28,7 +28,7 @@
         <div class="role-message">
             @if (User.IsInRole("Admin"))
             {
-                <p class="role-text admin-role">Chào mừng Admin! <a asp-controller="Home" asp-action="AdminDashboard" class="dashboard-link">Vào Dashboard</a></p>
+                <p class="role-text admin-role">Chào mừng Admin! <a asp-controller="Admin" asp-action="Index" class="dashboard-link">Vào Dashboard</a></p>
             }
             else if (User.IsInRole("Teacher"))
             {
