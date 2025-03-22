@@ -1,4 +1,141 @@
-﻿@{
-    ViewData["Title"] = "Trang Admin";
+﻿@model IEnumerable<StudentManagementSystem.Models.DTOs.CourseDTO>
+@{
+    ViewData["Title"] = "Admin - Course Management";
 }
-<h2>Chào mừng đến trang Admin</h2>
+
+<div class="text-center">
+    <h1 class="display-4">Course Management</h1>
+</div>
+
+<!-- Add & Edit Course Forms -->
+<div class="form-container">
+    <!-- Add Course Form -->
+    <form asp-action="AddCourse" asp-controller="Admin" method="post" id="form_create">
+        @Html.AntiForgeryToken()
+        <input required type="text" id="courseName" name="CourseName" placeholder="Course Name" />
+        <input required type="text" id="courseCode" name="CourseCode" placeholder="Course Code" />
+        <input required type="number" id="credits" name="Credits" placeholder="Credits" />
+
+        <textarea required id="description" name="Description" placeholder="Course Description"></textarea> <!-- 🔹 Added -->
+
+        <select name="UserId">
+            @foreach (var user in ViewBag.Users)
+            {
+                <option value="@user.UserId">@user.UserId</option>
+            }
+        </select>
+
+        <input required type="date" id="startDate" name="StartDate" />
+        <input required type="date" id="endDate" name="EndDate" />
+
+        <select required name="IsActive">
+            <option value="1">Active</option>
+            <option value="0">Inactive</option>
+        </select>
+
+        <button type="submit">Add</button>
+    </form>
+
+    <!-- Edit Course Form (Hidden by default) -->
+    <form asp-action="EditCourse" asp-controller="Admin" method="post" id="form_update" style="display:none">
+        @Html.AntiForgeryToken()
+        <input type="number" name="CourseId" id="form_update_course_id" style="display:none" />
+        <input required type="text" id="form_update_courseName" name="CourseName" placeholder="Course Name" />
+        <input required type="text" id="form_update_courseCode" name="CourseCode" placeholder="Course Code" />
+        <input required type="number" id="form_update_credits" name="Credits" placeholder="Credits" />
+
+        <textarea required id="form_update_description" name="Description" placeholder="Course Description"></textarea> <!-- 🔹 Added -->
+
+        <select name="UserId" id="form_update_userId">
+            <!-- ✅ FIXED: Added ID -->
+            @foreach (var user in ViewBag.Users)
+            {
+                <option value="@user.UserId">@user.UserId</option>
+            }
+        </select>
+
+        <input required type="date" id="form_update_startDate" name="StartDate" />
+        <input required type="date" id="form_update_endDate" name="EndDate" />
+
+        <select required id="form_update_isActive" name="IsActive">
+            <option value="1">Active</option>
+            <option value="0">Inactive</option>
+        </select>
+
+        <button type="submit">Update</button>
+    </form>
+
+
+    <hr />
+
+    <!-- Course Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Course Name</th>
+                <th>Code</th>
+                <th>Credits</th>
+                <th>Description</th> <!-- 🔹 Added -->
+                <th>Faculty</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Active</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in Model)
+            {
+                <tr>
+                    <td>@course.CourseId</td>
+                    <td>@course.CourseName</td>
+                    <td>@course.CourseCode</td>
+                    <td>@course.Credits</td>
+                    <td>@course.Description</td> <!-- 🔹 Added -->
+                    <td>@course.UserId</td>
+                    <td>@course.StartDate.ToShortDateString()</td>
+                    <td>@course.EndDate.ToShortDateString()</td>
+                    <td>@(course.IsActive ? "Yes" : "No")</td>
+                    <td>
+                        <button onclick="deleteCourse(@course.CourseId, '@course.CourseName')">Delete</button>
+                        <button onclick="editCourse(@course.CourseId, '@course.CourseName', '@course.CourseCode', @course.Credits, '@course.Description', '@course.UserId', '@course.StartDate.ToString("yyyy-MM-dd")', '@course.EndDate.ToString("yyyy-MM-dd")', '@(course.IsActive ? "1" : "0")')">
+                            Edit
+                        </button>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function deleteCourse(id, name) {
+        if (confirm("Are you sure you want to delete " + name + "?")) {
+            window.location.href = "/Admin/DeleteCourse/" + id;
+        }
+    }
+
+    function editCourse(id, name, code, credits, description, userId, startDate, endDate, isActive) {
+         document.getElementById("form_update_course_id").value = id;
+         document.getElementById("form_update_courseName").value = name;
+         document.getElementById("form_update_courseCode").value = code;
+         document.getElementById("form_update_credits").value = credits;
+         document.getElementById("form_update_description").value = description;
+         document.getElementById("form_update_startDate").value = startDate;
+         document.getElementById("form_update_endDate").value = endDate;
+         document.getElementById("form_update_isActive").value = isActive;
+
+         // Fix: Ensure correct userId is selected
+         let userDropdown = document.getElementById("form_update_userId");
+         if (userDropdown) {
+             userDropdown.value = userId;
+         }
+
+         // Ensure "Edit Form" is shown & "Add Form" is hidden
+         document.getElementById("form_update").style.display = "block";
+         document.getElementById("form_create").style.display = "none";
+     }
+
+</script>

@@ -50,6 +50,16 @@ namespace StudentManagementSystem.Repositories
             return await _context.Users.Include(u => u.UserRoles).ThenInclude(ur => ur.Role).FirstOrDefaultAsync(u => u.Username == username);
         }
 
+        public async Task<IEnumerable<User>> GetUsersByRoleAsync(string roleName)
+        {
+            return await _context.Users
+                .Where(u => u.UserRoles.Any(ur => ur.Role.RoleName == roleName))
+                .Include(u => u.UserRoles)
+                .ThenInclude(ur => ur.Role)
+                .ToListAsync();
+        }
+
+
         public async Task AssignRoleAsync(int userId, string roleName)
         {
             var role = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == roleName);

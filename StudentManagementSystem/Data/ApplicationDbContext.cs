@@ -67,7 +67,7 @@ namespace StudentManagementSystem.Data
             modelBuilder.Entity<Course>()
                 .HasOne(c => c.Faculty)
                 .WithMany()
-                .HasForeignKey(c => c.FacultyUserId)
+                .HasForeignKey(c => c.UserId)
                 .OnDelete(DeleteBehavior.NoAction);
 
             modelBuilder.Entity<Course>()
