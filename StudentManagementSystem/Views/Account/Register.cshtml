@@ -129,29 +129,45 @@
 }
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function() {
         const inputs = document.querySelectorAll('.animated-input input, .animated-input select');
 
         inputs.forEach(input => {
+            // Kiểm tra giá trị ban đầu để thêm class .focused nếu có dữ liệu
+            if (input.value.trim() !== '') {
+                input.parentElement.classList.add('focused');
+            }
+
+            // Xử lý sự kiện focus
             input.addEventListener('focus', function() {
                 this.parentElement.classList.add('focused');
             });
 
+            // Xử lý sự kiện blur
             input.addEventListener('blur', function() {
-                if (this.value === '') {
+                if (this.value.trim() === '') {
                     this.parentElement.classList.remove('focused');
                 }
             });
 
-            if (input.value !== '') {
-                input.parentElement.classList.add('focused');
-            }
+            // Xử lý sự kiện change (đặc biệt hữu ích cho select và date)
+            input.addEventListener('change', function() {
+                if (this.value.trim() !== '') {
+                    this.parentElement.classList.add('focused');
+                } else {
+                    this.parentElement.classList.remove('focused');
+                }
+            });
         });
 
+        // Xử lý riêng cho input[type="date"] để luôn hiển thị label ở trên
         const dateInputs = document.querySelectorAll('input[type="date"]');
         dateInputs.forEach(input => {
             input.parentElement.classList.add('date-input');
-            input.parentElement.classList.add('focused');
+            // Luôn thêm class .focused cho date input để label ở trên
+            if (input.value.trim() !== '') {
+                input.parentElement.classList.add('focused');
+            }
         });
     });
 </script>

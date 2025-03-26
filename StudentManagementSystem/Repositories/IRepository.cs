@@ -1,13 +1,16 @@
-﻿namespace StudentManagementSystem.Repositories
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace StudentManagementSystem.Repositories
 {
     public interface IRepository<T> where T : class
     {
-        Task<T> GetByIdAsync(int id);
         Task<IEnumerable<T>> GetAllAsync();
+        Task<T> GetByIdAsync(int id);
         Task AddAsync(T entity);
         Task UpdateAsync(T entity);
         Task DeleteAsync(int id);
         Task<T> GetByUsernameAsync(string username);
-        Task AssignRoleAsync(int userId, string v);
+        Task AssignRoleAsync(int userId, string roleName);
     }
 }

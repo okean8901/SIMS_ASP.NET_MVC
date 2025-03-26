@@ -5,6 +5,7 @@ using StudentManagementSystem.Models.Entities;
 using StudentManagementSystem.Repositories;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace StudentManagementSystem.Controllers
 {
@@ -130,7 +131,12 @@ namespace StudentManagementSystem.Controllers
             TempData["Username"] = user.Username;
             TempData["SuccessMessage"] = "Login Successful!";
 
-            if (user.UserRoles.Any(ur => ur.Role.RoleName == "Teacher"))
+            // For Admin, always redirect to Dashboard
+            if (user.UserRoles.Any(ur => ur.Role.RoleName == "Admin"))
+            {
+                return RedirectToAction("Dashboard", "Admin");
+            }
+            else if (user.UserRoles.Any(ur => ur.Role.RoleName == "Teacher"))
             {
                 return RedirectToAction("Index", "Teacher");
             }
@@ -138,14 +144,11 @@ namespace StudentManagementSystem.Controllers
             {
                 return RedirectToAction("Index", "Student");
             }
-            else if (user.UserRoles.Any(ur => ur.Role.RoleName == "Admin"))
-            {
-                return RedirectToAction("Index", "Admin");
-            }
 
             return RedirectToAction("Index", "Home");
         }
 
+        [Authorize]
         public IActionResult AccessDenied()
         {
             return View();

@@ -1,0 +1,148 @@
+﻿@model IEnumerable<StudentManagementSystem.Models.Entities.Enrollment>
+@{
+    ViewData["Title"] = "Assign Courses to Students";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Assign Courses to Students</h1>
+</div>
+
+<!-- Hiển thị thông báo -->
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<!-- Form gán khóa học -->
+<div class="form-container">
+    <form asp-action="AssignCourse" asp-controller="Admin" method="post">
+        @Html.AntiForgeryToken()
+        <label for="studentId">Select Student:</label>
+        <select name="studentId" id="studentId" required>
+            @foreach (var student in ViewBag.Students)
+            {
+                <option value="@student.StudentId">@student.FullName (ID: @student.StudentId)</option>
+            }
+        </select>
+        <label for="courseId">Select Course:</label>
+        <select name="courseId" id="courseId" required>
+            @foreach (var course in ViewBag.Courses)
+            {
+                <option value="@course.CourseId">@course.CourseName (@course.CourseCode)</option>
+            }
+        </select>
+        <button type="submit">Assign Course</button>
+    </form>
+</div>
+
+<!-- Form sửa enrollment (nếu có) -->
+@if (ViewBag.EditEnrollment != null)
+{
+    var editEnrollment = ViewBag.EditEnrollment as StudentManagementSystem.Models.Entities.Enrollment;
+    <div class="form-container">
+        <h2>Edit Enrollment</h2>
+        <form asp-action="EditEnrollment" asp-controller="Admin" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="EnrollmentId" value="@editEnrollment.EnrollmentId" />
+            <input type="hidden" name="EnrollDate" value="@editEnrollment.EnrollDate.ToString("o")" />
+
+            <label for="StudentId">Select Student:</label>
+            <select name="StudentId" id="StudentId" required>
+                @foreach (var student in ViewBag.Students)
+                {
+                    <option value="@student.StudentId" selected="@(student.StudentId == editEnrollment.StudentId ? "selected" : null)">@student.FullName (ID: @student.StudentId)</option>
+                }
+            </select>
+
+            <label for="CourseId">Select Course:</label>
+            <select name="CourseId" id="CourseId" required>
+                @foreach (var course in ViewBag.Courses)
+                {
+                    <option value="@course.CourseId" selected="@(course.CourseId == editEnrollment.CourseId ? "selected" : null)">@course.CourseName (@course.CourseCode)</option>
+                }
+            </select>
+
+            <label for="Status">Status:</label>
+            <input type="text" name="Status" value="@editEnrollment.Status" required />
+
+            <label for="Semester">Semester:</label>
+            <input type="text" name="Semester" value="@editEnrollment.Semester" required />
+
+            <label for="AcademicYear">Academic Year:</label>
+            <input type="number" name="AcademicYear" value="@editEnrollment.AcademicYear" required />
+
+            <label for="Grade">Grade:</label>
+            <input type="text" name="Grade" value="@editEnrollment.Grade" required />
+
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+}
+
+<!-- Bảng danh sách enrollment -->
+<div class="table-container">
+    <h2>Current Enrollments</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Course</th>
+                <th>Enroll Date</th>
+                <th>Status</th>
+                <th>Semester</th>
+                <th>Academic Year</th>
+                <th>Grade</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var enrollment in Model)
+            {
+                <tr>
+                    <td>@enrollment.Student.FullName</td>
+                    <td>@enrollment.Course.CourseName</td>
+                    <td>@enrollment.EnrollDate.ToShortDateString()</td>
+                    <td>@enrollment.Status</td>
+                    <td>@enrollment.Semester</td>
+                    <td>@enrollment.AcademicYear</td>
+                    <td>@enrollment.Grade</td>
+                    <td>
+                        <a asp-action="EditEnrollment" asp-route-id="@enrollment.EnrollmentId" class="btn btn-warning">Edit</a>
+                        <a asp-action="DeleteEnrollment" asp-route-id="@enrollment.EnrollmentId" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .form-container {
+        margin: 20px auto;
+        max-width: 600px;
+    }
+
+    .table-container {
+        margin: 20px auto;
+        max-width: 1000px;
+    }
+
+    select, input, button {
+        margin: 10px 0;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .btn {
+        margin: 0 5px;
+    }
+
+    .alert {
+        margin: 20px auto;
+        max-width: 600px;
+    }
+</style>
