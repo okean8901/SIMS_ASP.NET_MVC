@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StudentManagementSystem.Data;
 using StudentManagementSystem.Models.Entities;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace StudentManagementSystem.Repositories
 {
@@ -13,77 +15,58 @@ namespace StudentManagementSystem.Repositories
             _context = context;
         }
 
-        public async Task<Enrollment> GetByIdAsync(int id)
-        {
-            return await _context.Enrollments.Include(e => e.Student).Include(e => e.Course).FirstOrDefaultAsync(e => e.EnrollmentId == id);
-        }
-
         public async Task<IEnumerable<Enrollment>> GetAllAsync()
         {
-            return await _context.Enrollments.Include(e => e.Student).Include(e => e.Course).ToListAsync();
+            return await _context.Enrollments
+                .Include(e => e.Student)
+                .Include(e => e.Course)
+                .ToListAsync();
         }
 
-        public async Task AddAsync(Enrollment entity)
+        public async Task<Enrollment> GetByIdAsync(int id)
         {
-            await _context.Enrollments.AddAsync(entity);
+            return await _context.Enrollments
+                .Include(e => e.Student)
+                .Include(e => e.Course)
+                .FirstOrDefaultAsync(e => e.EnrollmentId == id);
+        }
+
+        public async Task AddAsync(Enrollment enrollment)
+        {
+            await _context.Enrollments.AddAsync(enrollment);
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(Enrollment entity)
+        public async Task UpdateAsync(Enrollment enrollment)
         {
-            _context.Enrollments.Update(entity);
+            _context.Enrollments.Update(enrollment);
             await _context.SaveChangesAsync();
         }
 
         public async Task DeleteAsync(int id)
         {
-            var entity = await GetByIdAsync(id);
-            if (entity != null)
+            var enrollment = await GetByIdAsync(id);
+            if (enrollment != null)
             {
-                _context.Enrollments.Remove(entity);
+                _context.Enrollments.Remove(enrollment);
                 await _context.SaveChangesAsync();
             }
         }
 
-        public async Task<IEnumerable<Enrollment>> GetStudentEnrollments(int studentId)
+        public async Task<IEnumerable<Enrollment>> GetEnrollmentsByStudentIdAsync(int studentId)
         {
             return await _context.Enrollments
-                .Where(e => e.StudentId == studentId)
                 .Include(e => e.Course)
+                .Where(e => e.StudentId == studentId)
                 .ToListAsync();
         }
 
-        Task<Enrollment> IRepository<Enrollment>.GetByIdAsync(int id)
+        public Task<Enrollment> GetByUsernameAsync(string username)
         {
             throw new NotImplementedException();
         }
 
-        Task<IEnumerable<Enrollment>> IRepository<Enrollment>.GetAllAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        Task IRepository<Enrollment>.AddAsync(Enrollment entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task IRepository<Enrollment>.UpdateAsync(Enrollment entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task IRepository<Enrollment>.DeleteAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<Enrollment> IRepository<Enrollment>.GetByUsernameAsync(string username)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task AssignRoleAsync(int userId, string v)
+        public Task AssignRoleAsync(int userId, string roleName)
         {
             throw new NotImplementedException();
         }

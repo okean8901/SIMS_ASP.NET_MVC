@@ -11,6 +11,8 @@ namespace StudentManagementSystem.Repositories
     {
         private readonly ApplicationDbContext _context;
 
+
+
         public CourseRepository(ApplicationDbContext context)
         {
             _context = context;
@@ -105,5 +107,12 @@ namespace StudentManagementSystem.Repositories
         {
             throw new NotImplementedException();
         }
+
+        internal async Task AssignCourseToStudentAsync(int studentId, int courseId)
+        {
+            throw new NotImplementedException();
+        }
+
+
     }
 }

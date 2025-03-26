@@ -2,7 +2,6 @@
 using StudentManagementSystem.Data;
 using StudentManagementSystem.Models.Entities;
 using StudentManagementSystem.Repositories;
-using static StudentManagementSystem.Data.ApplicationDbContext;
 
 namespace StudentManagementSystem
 {
@@ -26,8 +25,11 @@ namespace StudentManagementSystem
             builder.Services.AddScoped<IRepository<Role>, RoleRepository>();
             builder.Services.AddScoped<IRepository<Student>, StudentRepository>();
             builder.Services.AddScoped<IRepository<Course>, CourseRepository>();
+            builder.Services.AddScoped<IRepository<Enrollment>, EnrollmentRepository>(); // Thêm EnrollmentRepository
             builder.Services.AddScoped<CourseRepository>();
             builder.Services.AddScoped<UserRepository>();
+            builder.Services.AddScoped<StudentRepository>();
+            builder.Services.AddScoped<EnrollmentRepository>(); // Thêm EnrollmentRepository
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -51,6 +53,12 @@ namespace StudentManagementSystem
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            // Thêm route cho Admin
+            app.MapControllerRoute(
+                name: "admin",
+                pattern: "{controller=Admin}/{action=Dashboard}/{id?}"
+            );
 
             app.Run();
         }
