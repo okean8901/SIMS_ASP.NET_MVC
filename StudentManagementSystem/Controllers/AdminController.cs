@@ -39,6 +39,10 @@ namespace StudentManagementSystem.Controllers
         {
             ViewBag.Users = await _userRepository.GetAllAsync();
             var courses = await _courseRepository.GetAllAsync();
+            foreach (var course in courses)
+            {
+                if (course.Description == null) course.Description = string.Empty; // Đảm bảo không null
+            }
             return View(courses);
         }
 
@@ -51,14 +55,14 @@ namespace StudentManagementSystem.Controllers
                 CourseName = model.CourseName,
                 CourseCode = model.CourseCode,
                 Credits = model.Credits,
-                Description = model.Description,
+                Description = model.Description ?? string.Empty,
                 UserId = model.UserId,
                 StartDate = model.StartDate,
                 EndDate = model.EndDate,
                 IsActive = model.IsActive
             };
             await _courseRepository.AddAsync(course);
-            return RedirectToAction("Dashboard");
+            return RedirectToAction("CourseManagement");
         }
 
         // POST: Edit an existing course
@@ -71,21 +75,21 @@ namespace StudentManagementSystem.Controllers
             course.CourseName = model.CourseName;
             course.CourseCode = model.CourseCode;
             course.Credits = model.Credits;
-            course.Description = model.Description;
+            course.Description = model.Description ?? string.Empty;
             course.UserId = model.UserId;
             course.StartDate = model.StartDate;
             course.EndDate = model.EndDate;
             course.IsActive = model.IsActive;
 
             await _courseRepository.UpdateAsync(course);
-            return RedirectToAction("Dashboard");
+            return RedirectToAction("CourseManagement");
         }
 
         // GET: Delete a course
         public async Task<IActionResult> DeleteCourse(int id)
         {
             await _courseRepository.DeleteAsync(id);
-            return RedirectToAction("Dashboard");
+            return RedirectToAction("CourseManagement");
         }
 
         // GET: Hiển thị form gắn khóa học và danh sách enrollment

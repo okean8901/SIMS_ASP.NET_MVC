@@ -11,8 +11,6 @@ namespace StudentManagementSystem.Repositories
     {
         private readonly ApplicationDbContext _context;
 
-
-
         public CourseRepository(ApplicationDbContext context)
         {
             _context = context;
@@ -28,13 +26,12 @@ namespace StudentManagementSystem.Repositories
                     CourseName = c.CourseName,
                     CourseCode = c.CourseCode,
                     Credits = c.Credits,
-                   
+                    Description = c.Description, // Thêm ánh xạ Description
                     StartDate = c.StartDate,
                     EndDate = c.EndDate,
                     IsActive = c.IsActive
                 }).ToListAsync();
         }
-
 
         public async Task<Course> GetByIdAsync(int id)
         {
@@ -63,46 +60,36 @@ namespace StudentManagementSystem.Repositories
             }
         }
 
-        // Example of implementing GetByUsernameAsync and AssignRoleAsync, assuming user-related functionality exists.
         public async Task<Course> GetByUsernameAsync(string username)
         {
-            // First, find the user by username
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
-
-            // If user is found, return the course associated with that user's UserId
             if (user != null)
             {
                 return await _context.Courses
-                    .FirstOrDefaultAsync(c => c.UserId == user.UserId); // Use user.UserId, which is an integer
+                    .FirstOrDefaultAsync(c => c.UserId == user.UserId);
             }
-
-            return null; // Return null if no user or course is found
+            return null;
         }
 
         public async Task AssignRoleAsync(int userId, string roleName)
         {
-            // Get the Role object from the database based on role name (e.g., "Admin")
             var role = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == roleName);
-
             if (role == null)
             {
                 throw new ArgumentException($"Role {roleName} not found.");
             }
 
-            // Retrieve the user by userId
             var user = await _context.Users.FindAsync(userId);
-
             if (user == null)
             {
                 throw new ArgumentException($"User with ID {userId} not found.");
             }
 
-            // Assign the Role to the User (assuming User entity has a Role navigation property)
-            user.Role = role;  // Assign the Role object
-
+            user.Role = role;
             await _context.SaveChangesAsync();
         }
 
+        // Phương thức chưa triển khai từ IRepository<Course>
         Task<IEnumerable<Course>> IRepository<Course>.GetAllAsync()
         {
             throw new NotImplementedException();
@@ -112,7 +99,5 @@ namespace StudentManagementSystem.Repositories
         {
             throw new NotImplementedException();
         }
-
-
     }
 }
