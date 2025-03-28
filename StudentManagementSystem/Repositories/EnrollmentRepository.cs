@@ -53,11 +53,12 @@ namespace StudentManagementSystem.Repositories
             }
         }
 
-        public async Task<IEnumerable<Enrollment>> GetEnrollmentsByStudentIdAsync(int studentId)
+        public async Task<IEnumerable<Enrollment>> GetEnrollmentsByCourseIdAsync(int courseId)
         {
             return await _context.Enrollments
+                .Include(e => e.Student)
                 .Include(e => e.Course)
-                .Where(e => e.StudentId == studentId)
+                .Where(e => e.CourseId == courseId)
                 .ToListAsync();
         }
 

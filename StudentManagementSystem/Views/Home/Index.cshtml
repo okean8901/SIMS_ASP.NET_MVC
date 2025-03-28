@@ -32,7 +32,7 @@
             }
             else if (User.IsInRole("Teacher"))
             {
-                <p class="role-text teacher-role">Chào mừng Giáo viên! <a asp-controller="Home" asp-action="TeacherDashboard" class="dashboard-link">Vào Dashboard</a></p>
+                <p class="role-text teacher-role">Chào mừng Giáo viên! <a asp-controller="Teacher" asp-action="Index" class="dashboard-link">Vào Dashboard</a></p>
             }
             else if (User.IsInRole("Student"))
             {

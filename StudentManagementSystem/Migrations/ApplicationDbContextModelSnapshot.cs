@@ -82,9 +82,6 @@ namespace StudentManagementSystem.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("FacultyUserId")
-                        .HasColumnType("int");
-
                     b.Property<bool>("IsActive")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
@@ -93,9 +90,12 @@ namespace StudentManagementSystem.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("CourseId");
 
-                    b.HasIndex("FacultyUserId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Course", (string)null);
                 });
@@ -294,7 +294,7 @@ namespace StudentManagementSystem.Migrations
                 {
                     b.HasOne("StudentManagementSystem.Models.Entities.User", "Faculty")
                         .WithMany()
-                        .HasForeignKey("FacultyUserId")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 

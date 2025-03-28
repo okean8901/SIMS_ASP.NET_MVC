@@ -1,4 +1,68 @@
-﻿@{
-    ViewData["Title"] = "Trang Giáo Viên";
+﻿@model IEnumerable<StudentManagementSystem.Models.DTOs.CourseDTO>
+
+@{
+    ViewData["Title"] = "Teacher Dashboard";
+    var courseEnrollments = ViewBag.CourseEnrollments as Dictionary<int, IEnumerable<StudentManagementSystem.Models.Entities.Enrollment>>;
 }
-<h2>Chào mừng đến trang Giáo Viên</h2>
+
+<h2>Teacher Dashboard</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<h3>All Courses and Students</h3>
+
+@if (Model.Any())
+{
+    @foreach (var course in Model)
+    {
+        <div class="course-section mb-4">
+            <h4>@course.CourseName (@course.CourseCode)</h4>
+            @if (courseEnrollments.ContainsKey(course.CourseId) && courseEnrollments[course.CourseId].Any())
+            {
+                <form asp-action="SubmitGrades" method="post">
+                    <input type="hidden" name="courseId" value="@course.CourseId" />
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>Student ID</th>
+                                <th>Current Grade</th>
+                                <th>New Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var enrollment in courseEnrollments[course.CourseId])
+                            {
+                                <tr>
+                                    <td>@enrollment.Student.FullName</td>
+                                    <td>@enrollment.StudentId</td>
+                                    <td>@enrollment.Grade</td>
+                                    <td>
+                                        <input type="text" name="grades[@enrollment.EnrollmentId]" value="@enrollment.Grade" class="form-control" />
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <button type="submit" class="btn btn-primary">Submit Grades</button>
+                </form>
+            }
+            else
+            {
+                <p>No students enrolled in this course yet.</p>
+            }
+        </div>
+    }
+  
+}
+else
+{
+    <p>No courses available in the system.</p>
+}

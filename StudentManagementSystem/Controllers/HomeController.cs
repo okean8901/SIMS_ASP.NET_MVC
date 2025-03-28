@@ -20,7 +20,7 @@ namespace StudentManagementSystem.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privat()
         {
             return View();
         }
