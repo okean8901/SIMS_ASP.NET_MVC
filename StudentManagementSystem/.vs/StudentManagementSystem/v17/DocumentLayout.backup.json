@@ -3,168 +3,172 @@
   "WorkspaceRootPath": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\admin\\assigncourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\admin\\assigncourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\repositories\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:repositories\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\admin\\coursemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\admin\\coursemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\services\\singleton\\courseassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:services\\singleton\\courseassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\services\\singleton\\icourseassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:services\\singleton\\icourseassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\authenticationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\authenticationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\teacher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\teacher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\studentmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\admin\\assigncourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\admin\\assigncourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\dtos\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\dtos\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\migrations\\20250327021434_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:migrations\\20250327021434_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\authenticationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\authenticationlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\repositories\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:repositories\\enrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\admin\\coursemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\admin\\coursemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\20250327020426_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250327020426_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\studentmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -173,10 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\models\\dtos\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:models\\dtos\\enrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\20250320090048_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -199,14 +199,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\Source code c#\\StudentManagementSystem\\StudentManagementSystem\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\migrations\\20250320090658_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:migrations\\20250320090658_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\migrations\\20250321024754_addroletouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B62D097-BED3-BDD8-8DAE-82630C02044D}|StudentManagementSystem.csproj|solutionrelative:migrations\\20250321024754_addroletouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -216,7 +208,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 140,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -236,106 +228,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAwwKwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T03:07:56.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AssignCourse.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\AssignCourse.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\AssignCourse.cshtml",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\AssignCourse.cshtml",
-              "RelativeToolTip": "Views\\Admin\\AssignCourse.cshtml",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAwwIIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T09:32:57.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Enrollment.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Enrollment.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Enrollment.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Enrollment.cs",
-              "RelativeToolTip": "Models\\Entities\\Enrollment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:31:23.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CourseRepository.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\CourseRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CourseRepository.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\CourseRepository.cs",
-              "RelativeToolTip": "Repositories\\CourseRepository.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAgwGcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:11:36.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EnrollmentRepository.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\EnrollmentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\EnrollmentRepository.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\EnrollmentRepository.cs",
-              "RelativeToolTip": "Repositories\\EnrollmentRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwEkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:11:51.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-19T08:21:09.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAgwJEAAAAhAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T09:31:39.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T03:09:12.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeacherController.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "Controllers\\TeacherController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:07:13.454Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwD4AAABSAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:29:45.599Z",
+              "WhenOpened": "2025-03-19T08:21:23.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Teacher\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Teacher\\Index.cshtml",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Teacher\\Index.cshtml",
+              "RelativeToolTip": "Views\\Teacher\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwD0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T03:08:40.31Z",
               "EditorCaption": ""
             },
             {
@@ -348,86 +285,127 @@
               "RelativeToolTip": "Controllers\\StudentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T03:07:29.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T03:07:29.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\IRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IRepository.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\IRepository.cs",
-              "RelativeToolTip": "Repositories\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:10:19.237Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T09:32:20.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwEEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:21:23.108Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T09:53:37.698Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "site.css",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAIMFAAAAAAAAAAAqwAMGAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-21T02:10:05.945Z",
-              "EditorCaption": ""
+              "Title": "AssignCourse.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\AssignCourse.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AssignCourse.cshtml",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\AssignCourse.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AssignCourse.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAQwJMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T09:32:57.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:26:25.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAwLsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:07:56.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnrollmentDTO.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\DTOs\\EnrollmentDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\EnrollmentDTO.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\DTOs\\EnrollmentDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\EnrollmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:26:20.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseDTO.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\DTOs\\CourseDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CourseDTO.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\DTOs\\CourseDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\CourseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:26:22.669Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Student.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Student.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Student.cs",
-              "RelativeToolTip": "Models\\Entities\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAQwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:31:48.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T08:21:32.031Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Course.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Course.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Course.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Course.cs",
-              "RelativeToolTip": "Models\\Entities\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:31:01.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T10:18:30.48Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\StudentRepository.cs",
-              "RelativeToolTip": "Repositories\\StudentRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAqwCkAAAAfAAAAAAAAAA==",
+              "Title": "20250327021434_InitialCreate.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\20250327021434_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250327021434_InitialCreate.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\20250327021434_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250327021434_InitialCreate.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T03:11:12.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T02:14:34.201Z"
             },
             {
               "$type": "Document",
@@ -439,142 +417,23 @@
               "RelativeToolTip": "Models\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:31:54.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T08:31:54.444Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\UserRole.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\UserRole.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\UserRole.cs",
-              "RelativeToolTip": "Models\\Entities\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "Student.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Student.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Student.cs",
+              "RelativeToolTip": "Models\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:32:05.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T08:31:48.727Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\ErrorViewModel.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\Entities\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:31:36.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Role.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Role.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Role.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Role.cs",
-              "RelativeToolTip": "Models\\Entities\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:31:42.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAgwHwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:10:44.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:26:25.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwDIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T09:28:29.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CourseManagement.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\CourseManagement.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\CourseManagement.cshtml",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\CourseManagement.cshtml",
-              "RelativeToolTip": "Views\\Admin\\CourseManagement.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAqwI0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T10:32:33.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CourseAssignmentService.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Services\\Singleton\\CourseAssignmentService.cs",
-              "RelativeDocumentMoniker": "Services\\Singleton\\CourseAssignmentService.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Services\\Singleton\\CourseAssignmentService.cs",
-              "RelativeToolTip": "Services\\Singleton\\CourseAssignmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T11:09:09.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ICourseAssignmentService.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Services\\Singleton\\ICourseAssignmentService.cs",
-              "RelativeDocumentMoniker": "Services\\Singleton\\ICourseAssignmentService.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Services\\Singleton\\ICourseAssignmentService.cs",
-              "RelativeToolTip": "Services\\Singleton\\ICourseAssignmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T11:08:54.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T09:32:20.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
               "Title": "AuthenticationLog.cs",
               "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\AuthenticationLog.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\AuthenticationLog.cs",
@@ -582,179 +441,215 @@
               "RelativeToolTip": "Models\\Entities\\AuthenticationLog.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:30:51.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T08:30:51.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CourseDTO.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\DTOs\\CourseDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\CourseDTO.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\DTOs\\CourseDTO.cs",
-              "RelativeToolTip": "Models\\DTOs\\CourseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAIwI8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:26:22.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T09:29:45.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAF4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T09:31:18.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Teacher\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Teacher\\Index.cshtml",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Teacher\\Index.cshtml",
-              "RelativeToolTip": "Views\\Teacher\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T03:08:40.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 19,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAuwHAAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T09:53:48.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T09:53:48.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T03:09:12.289Z",
-              "EditorCaption": ""
+              "DocumentIndex": 21,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CourseRepository.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:11:36.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T09:54:05.639Z",
-              "EditorCaption": ""
+              "DocumentIndex": 20,
+              "Title": "site.css",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAALoHAAAAAAAAAAAmwNsHAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-21T02:10:05.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T09:53:37.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T09:28:29.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-20T09:53:34.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 23,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\UserDTO.cs",
               "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\DTOs\\UserDTO.cs",
               "RelativeToolTip": "Models\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:28:31.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T09:28:31.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwHcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "EnrollmentRepository.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\EnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EnrollmentRepository.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\EnrollmentRepository.cs",
+              "RelativeToolTip": "Repositories\\EnrollmentRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAiwEoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:21:32.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T09:11:51.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "TeacherController.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\TeacherController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TeacherController.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\TeacherController.cs",
-              "RelativeToolTip": "Controllers\\TeacherController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwHwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T03:07:13.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T09:10:44.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "StudentManagementSystem.csproj",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\StudentManagementSystem.csproj",
-              "RelativeDocumentMoniker": "StudentManagementSystem.csproj",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\StudentManagementSystem.csproj",
-              "RelativeToolTip": "StudentManagementSystem.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-23T15:21:56.276Z"
+              "DocumentIndex": 26,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:11:12.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": ".gitignore",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-19T08:21:16.214Z"
+              "DocumentIndex": 27,
+              "Title": "Course.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Course.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Course.cs",
+              "RelativeToolTip": "Models\\Entities\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:31:01.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 28,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAiwLEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T09:31:39.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAiwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T09:31:18.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CourseManagement.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\CourseManagement.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CourseManagement.cshtml",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Admin\\CourseManagement.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CourseManagement.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAHkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T10:32:33.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Enrollment.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Entities\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:31:23.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\ErrorViewModel.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\Entities\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:31:36.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\UserRole.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\UserRole.cs",
+              "RelativeToolTip": "Models\\Entities\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:32:05.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepository.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:10:19.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "RoleRepository.cs",
               "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Repositories\\RoleRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\RoleRepository.cs",
@@ -766,19 +661,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "20250321024754_AddRoleToUser.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\20250321024754_AddRoleToUser.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250321024754_AddRoleToUser.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\20250321024754_AddRoleToUser.cs",
-              "RelativeToolTip": "Migrations\\20250321024754_AddRoleToUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "20250327020426_InitialCreate.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\20250327020426_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250327020426_InitialCreate.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\20250327020426_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250327020426_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T02:47:55.122Z"
+              "WhenOpened": "2025-03-27T02:04:26.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-19T08:21:09.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Role.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Role.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\Entities\\Role.cs",
+              "RelativeToolTip": "Models\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:31:42.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T09:54:05.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T09:53:34.011Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
+              "Title": "StudentManagementSystem.csproj",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\StudentManagementSystem.csproj",
+              "RelativeDocumentMoniker": "StudentManagementSystem.csproj",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\StudentManagementSystem.csproj",
+              "RelativeToolTip": "StudentManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-23T15:21:56.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "site.js",
               "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -790,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -799,30 +754,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-20T09:54:01.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "EnrollmentDTO.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\DTOs\\EnrollmentDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\EnrollmentDTO.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Models\\DTOs\\EnrollmentDTO.cs",
-              "RelativeToolTip": "Models\\DTOs\\EnrollmentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:26:20.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "20250320090658_InitialCreate.cs",
-              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\20250320090658_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250320090658_InitialCreate.cs",
-              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Migrations\\20250320090658_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20250320090658_InitialCreate.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:06:58.915Z"
             },
             {
               "$type": "Document",

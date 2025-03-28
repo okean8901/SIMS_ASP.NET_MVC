@@ -35,6 +35,7 @@ namespace StudentManagementSystem.Migrations
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    RoleId = table.Column<int>(type: "int", nullable: true),
                     LastLogin = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValueSql: "GETDATE()"),
                     IsActive = table.Column<bool>(type: "bit", nullable: false, defaultValue: true)
@@ -42,6 +43,12 @@ namespace StudentManagementSystem.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_User", x => x.UserId);
+                    table.ForeignKey(
+                        name: "FK_User_Roles_RoleId",
+                        column: x => x.RoleId,
+                        principalTable: "Roles",
+                        principalColumn: "RoleId",
+                        onDelete: ReferentialAction.SetNull);
                 });
 
             migrationBuilder.CreateTable(
@@ -73,7 +80,7 @@ namespace StudentManagementSystem.Migrations
                 {
                     CourseId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    FacultyUserId = table.Column<int>(type: "int", nullable: false),
+                    UserId = table.Column<int>(type: "int", nullable: false),
                     CourseName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Credits = table.Column<int>(type: "int", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -86,8 +93,8 @@ namespace StudentManagementSystem.Migrations
                 {
                     table.PrimaryKey("PK_Course", x => x.CourseId);
                     table.ForeignKey(
-                        name: "FK_Course_User_FacultyUserId",
-                        column: x => x.FacultyUserId,
+                        name: "FK_Course_User_UserId",
+                        column: x => x.UserId,
                         principalTable: "User",
                         principalColumn: "UserId");
                 });
@@ -180,9 +187,9 @@ namespace StudentManagementSystem.Migrations
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Course_FacultyUserId",
+                name: "IX_Course_UserId",
                 table: "Course",
-                column: "FacultyUserId");
+                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Enrollment_CourseId",
@@ -199,6 +206,11 @@ namespace StudentManagementSystem.Migrations
                 table: "Student",
                 column: "UserId",
                 unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_User_RoleId",
+                table: "User",
+                column: "RoleId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_UserRoles_RoleId",
@@ -225,10 +237,10 @@ namespace StudentManagementSystem.Migrations
                 name: "Student");
 
             migrationBuilder.DropTable(
-                name: "Roles");
+                name: "User");
 
             migrationBuilder.DropTable(
-                name: "User");
+                name: "Roles");
         }
     }
 }

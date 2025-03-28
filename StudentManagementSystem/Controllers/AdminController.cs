@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using StudentManagementSystem.Models.DTOs;
 using StudentManagementSystem.Models.Entities;
 using StudentManagementSystem.Repositories;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace StudentManagementSystem.Controllers
@@ -28,25 +27,22 @@ namespace StudentManagementSystem.Controllers
             _enrollmentRepository = enrollmentRepository;
         }
 
-        // GET: Admin Dashboard
         public IActionResult Dashboard()
         {
             return View();
         }
 
-        // GET: List all courses for management
         public async Task<IActionResult> CourseManagement()
         {
             ViewBag.Users = await _userRepository.GetAllAsync();
             var courses = await _courseRepository.GetAllAsync();
             foreach (var course in courses)
             {
-                if (course.Description == null) course.Description = string.Empty; // Đảm bảo không null
+                if (course.Description == null) course.Description = string.Empty;
             }
             return View(courses);
         }
 
-        // POST: Add a new course
         [HttpPost]
         public async Task<IActionResult> AddCourse(CourseDTO model)
         {
@@ -65,7 +61,6 @@ namespace StudentManagementSystem.Controllers
             return RedirectToAction("CourseManagement");
         }
 
-        // POST: Edit an existing course
         [HttpPost]
         public async Task<IActionResult> EditCourse(CourseDTO model)
         {
@@ -85,14 +80,12 @@ namespace StudentManagementSystem.Controllers
             return RedirectToAction("CourseManagement");
         }
 
-        // GET: Delete a course
         public async Task<IActionResult> DeleteCourse(int id)
         {
             await _courseRepository.DeleteAsync(id);
             return RedirectToAction("CourseManagement");
         }
 
-        // GET: Hiển thị form gắn khóa học và danh sách enrollment
         public async Task<IActionResult> AssignCourse()
         {
             ViewBag.Students = await _studentRepository.GetAllAsync();
@@ -101,7 +94,6 @@ namespace StudentManagementSystem.Controllers
             return View(enrollments);
         }
 
-        // POST: Gắn khóa học cho sinh viên và hiển thị lại danh sách
         [HttpPost]
         public async Task<IActionResult> AssignCourse(int studentId, int courseId)
         {
@@ -125,7 +117,6 @@ namespace StudentManagementSystem.Controllers
             return View(enrollments);
         }
 
-        // GET: Hiển thị form sửa enrollment
         public async Task<IActionResult> EditEnrollment(int id)
         {
             var enrollment = await _enrollmentRepository.GetByIdAsync(id);
@@ -138,7 +129,6 @@ namespace StudentManagementSystem.Controllers
             return View("AssignCourse", enrollments);
         }
 
-        // POST: Sửa enrollment và hiển thị lại danh sách
         [HttpPost]
         public async Task<IActionResult> EditEnrollment(int EnrollmentId, int StudentId, int CourseId, string Status, string Semester, int AcademicYear, string Grade, DateTime EnrollDate)
         {
@@ -184,7 +174,6 @@ namespace StudentManagementSystem.Controllers
             return View("AssignCourse", enrollments);
         }
 
-        // GET: Xóa enrollment và hiển thị lại danh sách
         public async Task<IActionResult> DeleteEnrollment(int id)
         {
             await _enrollmentRepository.DeleteAsync(id);

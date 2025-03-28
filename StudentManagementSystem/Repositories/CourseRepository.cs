@@ -98,6 +98,6 @@ namespace StudentManagementSystem.Repositories
         internal async Task AssignCourseToStudentAsync(int studentId, int courseId)
         {
             throw new NotImplementedException();
-        }
+        } 
     }
 }

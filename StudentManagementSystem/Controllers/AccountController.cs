@@ -29,7 +29,6 @@ namespace StudentManagementSystem.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(UserDTO model)
         {
-            // Loại bỏ lỗi validation cho Role để cho phép nó rỗng
             if (ModelState.ContainsKey("Role"))
             {
                 ModelState["Role"].Errors.Clear();
@@ -59,11 +58,9 @@ namespace StudentManagementSystem.Controllers
 
             await _userRepository.AddAsync(user);
 
-            // Gán vai trò: Nếu không chọn (rỗng hoặc null), mặc định là "Admin"
             string role = string.IsNullOrEmpty(model.Role) ? "Admin" : model.Role;
             await _userRepository.AssignRoleAsync(user.UserId, role);
 
-            // Nếu vai trò là "Student", thêm thông tin vào bảng Student
             if (role == "Student")
             {
                 var student = new Student
@@ -131,7 +128,6 @@ namespace StudentManagementSystem.Controllers
             TempData["Username"] = user.Username;
             TempData["SuccessMessage"] = "Login Successful!";
 
-            // For Admin, always redirect to Dashboard
             if (user.UserRoles.Any(ur => ur.Role.RoleName == "Admin"))
             {
                 return RedirectToAction("Dashboard", "Admin");

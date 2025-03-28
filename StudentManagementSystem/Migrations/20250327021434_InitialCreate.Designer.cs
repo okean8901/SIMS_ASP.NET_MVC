@@ -12,7 +12,7 @@ using StudentManagementSystem.Data;
 namespace StudentManagementSystem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250320090658_InitialCreate")]
+    [Migration("20250327021434_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -85,9 +85,6 @@ namespace StudentManagementSystem.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("FacultyUserId")
-                        .HasColumnType("int");
-
                     b.Property<bool>("IsActive")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
@@ -96,9 +93,12 @@ namespace StudentManagementSystem.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("CourseId");
 
-                    b.HasIndex("FacultyUserId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Course", (string)null);
                 });
@@ -245,11 +245,16 @@ namespace StudentManagementSystem.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("RoleId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("UserId");
+
+                    b.HasIndex("RoleId");
 
                     b.ToTable("User", (string)null);
                 });
@@ -292,7 +297,7 @@ namespace StudentManagementSystem.Migrations
                 {
                     b.HasOne("StudentManagementSystem.Models.Entities.User", "Faculty")
                         .WithMany()
-                        .HasForeignKey("FacultyUserId")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
@@ -327,6 +332,16 @@ namespace StudentManagementSystem.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("StudentManagementSystem.Models.Entities.User", b =>
+                {
+                    b.HasOne("StudentManagementSystem.Models.Entities.Role", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("Role");
                 });
 
             modelBuilder.Entity("StudentManagementSystem.Models.Entities.UserRole", b =>
