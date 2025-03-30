@@ -1,4 +1,35 @@
 ﻿@{
     ViewData["Title"] = "Trang Học Sinh";
 }
+<<<<<<< Updated upstream
 <h2>Chào mừng đến trang Học Sinh</h2>
+=======
+<h2>Chào mừng đến trang Học Sinh</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Course ID</th>
+            <th>Course Name</th>
+            <th>Semester</th>
+            <th>Academic Year</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var enrollment in Model)
+        {
+            <tr>
+                <td>@enrollment.CourseId</td>
+                <td>@enrollment.Course?.CourseName</td>
+                <td>@enrollment.Semester</td>
+                <td>@enrollment.AcademicYear</td>
+                <td>@enrollment.Grade</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/student.css" asp-append-version="true" />
+}
+>>>>>>> Stashed changes

@@ -7,8 +7,6 @@ T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\obj
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.RazorAssemblyInfo.cs
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.sourcelink.json
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.csproj.AssemblyReference.cache
-T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\appsettings.Development.json
-T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\appsettings.json
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\StudentManagementSystem.staticwebassets.runtime.json
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\StudentManagementSystem.staticwebassets.endpoints.json
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\StudentManagementSystem.exe
@@ -184,3 +182,5 @@ T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\appsettings.Development.json
+T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\appsettings.json

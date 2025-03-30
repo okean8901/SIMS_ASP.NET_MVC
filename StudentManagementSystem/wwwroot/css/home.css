@@ -1,0 +1,234 @@
+﻿/* Ocean Header */
+.ocean-header {
+    position: relative;
+    background: linear-gradient(180deg, var(--sky-blue), var(--ocean-blue));
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    text-align: center;
+}
+
+.wave-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 200%;
+    height: 100px;
+    background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 C300,100 900,20 1200,60 L1200,120 L0,120 Z" fill="rgba(255,255,255,0.2)"/></svg>') repeat-x;
+    animation: waveAnimation 10s infinite linear;
+}
+
+.wave1 {
+    opacity: 0.8;
+    animation-delay: 0s;
+}
+
+.wave2 {
+    opacity: 0.6;
+    animation-delay: -5s;
+    background-position: 100px;
+}
+
+.wave3 {
+    opacity: 0.4;
+    animation-delay: -3s;
+    background-position: 200px;
+}
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.university-logo img {
+    width: 100px;
+    height: 100px;
+    animation: wave 3s infinite ease-in-out;
+}
+
+.university-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Main Content */
+.main-content {
+    padding: 50px 0;
+    animation: fadeInUp 1s ease-out;
+}
+
+.welcome-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.welcome-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--ocean-blue);
+    margin-bottom: 20px;
+    animation: fadeInUp 1.2s ease-out;
+}
+
+.role-message {
+    margin-bottom: 30px;
+}
+
+.role-text {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+    .role-text:hover {
+        transform: translateY(-5px);
+    }
+
+.admin-role {
+    background: rgba(26, 115, 232, 0.1);
+    color: var(--sky-blue);
+}
+
+.teacher-role {
+    background: rgba(0, 119, 182, 0.1);
+    color: var(--ocean-blue);
+}
+
+.student-role {
+    background: rgba(0, 196, 204, 0.1);
+    color: var(--turquoise);
+}
+
+.dashboard-link {
+    color: var(--sky-blue);
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+    .dashboard-link:hover {
+        color: var(--ocean-blue);
+        text-decoration: underline;
+    }
+
+.info-card {
+    background: var(--white);
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 119, 182, 0.2);
+    animation: fadeInUp 1.4s ease-out;
+}
+
+    .info-card p {
+        font-size: 1.1rem;
+        color: var(--gray);
+        margin: 0;
+    }
+
+.highlight {
+    color: var(--sky-blue);
+    font-weight: 700;
+}
+
+.small-text {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.info-link {
+    color: var(--turquoise);
+    transition: color 0.3s ease;
+}
+
+    .info-link:hover {
+        color: var(--ocean-blue);
+    }
+
+/* Buttons */
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-ocean-login {
+    background: var(--sky-blue);
+    color: var(--white);
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+    .btn-ocean-login:hover {
+        background: var(--ocean-blue);
+        color: var(--white);
+    }
+
+.btn-ocean-register {
+    background: var(--turquoise);
+    color: var(--white);
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+    .btn-ocean-register:hover {
+        background: var(--ocean-blue);
+        color: var(--white);
+    }
+
+.btn-ocean-logout {
+    background: rgba(255, 82, 82, 0.9);
+    color: var(--white);
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+    .btn-ocean-logout:hover {
+        background: rgba(255, 82, 82, 1);
+        color: var(--white);
+    }
+
+/* Success Notification */
+.success-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--turquoise);
+    color: var(--white);
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 196, 204, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+    .success-notification.show {
+        opacity: 1;
+    }
+
+.notification-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

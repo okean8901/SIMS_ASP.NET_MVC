@@ -141,7 +141,7 @@ namespace StudentManagementSystem.Controllers
                 return RedirectToAction("Index", "Student");
             }
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Home");     
         }
 
         [Authorize]

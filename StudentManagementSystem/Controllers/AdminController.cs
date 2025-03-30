@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using StudentManagementSystem.Models.DTOs;
 using StudentManagementSystem.Models.Entities;
 using StudentManagementSystem.Repositories;
+using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace StudentManagementSystem.Controllers
@@ -183,6 +185,77 @@ namespace StudentManagementSystem.Controllers
             ViewBag.Courses = await _courseRepository.GetAllAsync();
             var enrollments = await _enrollmentRepository.GetAllAsync();
             return View("AssignCourse", enrollments);
+        }
+
+        // User Management Methods
+        public async Task<IActionResult> UserManagement(int? id)
+        {
+            // Get all users for the table
+            var users = await _userRepository.GetAllAsync();
+
+            // If an ID is provided, get the user for editing
+            if (id.HasValue)
+            {
+                var editUser = await _userRepository.GetByIdAsync(id.Value);
+                if (editUser != null)
+                {
+                    ViewBag.EditUser = editUser;
+                    ViewBag.Roles = await _userRepository.GetRolesAsync();
+                }
+            }
+
+            return View(users);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateUser(int userId, string username, string email, string fullName,
+            string password, string role, bool isActive)
+        {
+            var user = await _userRepository.GetByIdAsync(userId);
+            if (user == null) return NotFound();
+
+            user.Username = username;
+            user.Email = email;
+            user.FullName = fullName;
+            user.IsActive = isActive;
+
+            // Only update password if a new one is provided
+            if (!string.IsNullOrEmpty(password))
+            {
+                // In production, you should hash the password
+                user.Password = password;
+            }
+
+            // Update role if provided
+            if (!string.IsNullOrEmpty(role))
+            {
+                await _userRepository.UpdateUserRoleAsync(user.UserId, role);
+            }
+
+            await _userRepository.UpdateAsync(user);
+            TempData["Success"] = "User updated successfully!";
+            return RedirectToAction("UserManagement");
+        }
+
+        public async Task<IActionResult> DeleteUser(int id)
+        {
+            var user = await _userRepository.GetByIdAsync(id);
+            if (user == null) return NotFound();
+
+            // Check if this is not the last admin to prevent locking out
+            if (user.UserRoles.Any(ur => ur.Role.RoleName == "Admin"))
+            {
+                var adminCount = await _userRepository.CountAdminsAsync();
+                if (adminCount <= 1)
+                {
+                    TempData["Error"] = "Cannot delete the last admin user!";
+                    return RedirectToAction("UserManagement");
+                }
+            }
+
+            await _userRepository.DeleteAsync(id);
+            TempData["Success"] = "User deleted successfully!";
+            return RedirectToAction("UserManagement");
         }
     }
 }
