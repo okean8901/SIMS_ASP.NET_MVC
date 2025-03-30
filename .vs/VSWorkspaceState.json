@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\StudentManagementSystem",
+    "\\StudentManagementSystemTest",
     "\\StudentManagementSystem\\Data"
   ],
-  "SelectedNode": "\\StudentManagementSystem\\StudentManagementSystem.sln",
+  "SelectedNode": "\\StudentManagementSystemTest\\StudentManagementSystemTest.csproj",
   "PreviewInSolutionExplorer": false
 }
