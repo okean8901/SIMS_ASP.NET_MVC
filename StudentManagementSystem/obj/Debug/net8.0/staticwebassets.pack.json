@@ -5,12 +5,60 @@
       "PackagePath": "staticwebassets\\StudentManagementSystem.7cetiexh1r.bundle.scp.css"
     },
     {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\assets\\OceanSeaWaves.mp4",
+      "PackagePath": "staticwebassets\\assets\\OceanSeaWaves.mp4"
+    },
+    {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\assets\\OceanWaves.mp4",
+      "PackagePath": "staticwebassets\\assets\\OceanWaves.mp4"
+    },
+    {
       "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\assets\\logo.png",
       "PackagePath": "staticwebassets\\assets\\logo.png"
     },
     {
-      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\admin-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\admin-dashboard.css"
+    },
+    {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\assign-course.css",
+      "PackagePath": "staticwebassets\\css\\assign-course.css"
+    },
+    {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\common.css",
+      "PackagePath": "staticwebassets\\css\\common.css"
+    },
+    {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\course-management.css",
+      "PackagePath": "staticwebassets\\css\\course-management.css"
+    },
+    {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\student.css",
+      "PackagePath": "staticwebassets\\css\\student.css"
+    },
+    {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\teacher.css",
+      "PackagePath": "staticwebassets\\css\\teacher.css"
+    },
+    {
+      "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\css\\usermanagement.css",
+      "PackagePath": "staticwebassets\\css\\usermanagement.css"
     },
     {
       "Id": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\wwwroot\\favicon.ico",

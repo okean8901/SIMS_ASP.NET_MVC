@@ -1,0 +1,184 @@
+﻿/* Ocean Header */
+.ocean-header {
+    position: relative;
+    background: linear-gradient(180deg, var(--sky-blue), var(--ocean-blue));
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    text-align: center;
+}
+
+.wave-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 200%;
+    height: 100px;
+    background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 C300,100 900,20 1200,60 L1200,120 L0,120 Z" fill="rgba(255,255,255,0.2)"/></svg>') repeat-x;
+    animation: waveAnimation 10s infinite linear;
+}
+
+.wave1 {
+    opacity: 0.8;
+    animation-delay: 0s;
+}
+
+.wave2 {
+    opacity: 0.5;
+    animation-delay: -5s;
+    background-position: 100px;
+}
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.university-logo img {
+    width: 100px;
+    height: 100px;
+    animation: wave 3s infinite ease-in-out;
+}
+
+.university-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Login Container */
+.login-container {
+    min-height: calc(100vh - 400px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInUp 1s ease-out;
+}
+
+.login-box {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 119, 182, 0.2);
+    width: 100%;
+    max-width: 450px;
+}
+
+.login-header h2 {
+    color: var(--ocean-blue);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.login-subtitle {
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+/* Form Inputs */
+.animated-input {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+    .animated-input label {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        color: var(--gray);
+        transition: all 0.3s ease;
+        pointer-events: none;
+    }
+
+    .animated-input.focused label,
+    .animated-input input:focus + label {
+        top: -10px;
+        font-size: 0.9rem;
+        color: var(--sky-blue);
+    }
+
+.input-focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--sky-blue);
+    transition: width 0.3s ease;
+}
+
+.animated-input.focused .input-focus-border,
+.animated-input input:focus ~ .input-focus-border {
+    width: 100%;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--turquoise);
+}
+
+/* Buttons and Alerts */
+.btn-ocean-login {
+    background: var(--sky-blue);
+    color: var(--white);
+    padding: 12px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+    .btn-ocean-login:hover {
+        background: var(--ocean-blue);
+        color: var(--white);
+    }
+
+.alert-danger {
+    background: rgba(255, 82, 82, 0.1);
+    border: 1px solid #ff5252;
+    color: #ff5252;
+    animation: shake 0.5s ease;
+}
+
+.success-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--turquoise);
+    color: var(--white);
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 196, 204, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+    .success-notification.show {
+        opacity: 1;
+    }
+
+.login-actions .register-link a {
+    color: var(--sky-blue);
+    transition: color 0.3s ease;
+}
+
+    .login-actions .register-link a:hover {
+        color: var(--ocean-blue);
+    }

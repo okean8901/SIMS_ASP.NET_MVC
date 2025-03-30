@@ -184,3 +184,4 @@ T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\appsettings.Development (2).json

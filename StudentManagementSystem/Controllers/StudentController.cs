@@ -11,6 +11,26 @@ public class StudentController : Controller
     public StudentController(ApplicationDbContext context)
     {
         _studentData = StudentData.GetInstance(context);
+<<<<<<< HEAD
+    }
+
+    public IActionResult Index()
+    {
+        // Get logged-in UserId from cookies (Claims)
+        var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        if (string.IsNullOrEmpty(userIdClaim))
+        {
+            return Unauthorized(); // No user logged in
+        }
+
+        int userId = int.Parse(userIdClaim);
+
+        // Fetch student enrollments using Singleton
+        List<Enrollment> enrollments = _studentData.GetStudentEnrollments(userId);
+
+        return View(enrollments);
+=======
+>>>>>>> 2aba467dee2759de081445c8c008dd6653fa5e10
     }
 
     public IActionResult Index()

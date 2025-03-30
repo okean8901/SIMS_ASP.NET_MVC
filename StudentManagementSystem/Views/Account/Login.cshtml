@@ -1,119 +1,134 @@
-﻿@{
-    ViewData["Title"] = "Đăng nhập";
-}
-
-<div class="ocean-header login-header">
-    <div class="wave-container">
-        <div class="wave wave1"></div>
-        <div class="wave wave2"></div>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng nhập - Okean University</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/common.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+</head>
+<body>
+    <div class="ocean-header login-header">
+        <div class="wave-container">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+        </div>
+        <div class="university-logo">
+            <img src="/assets/logo.png" alt="Okean University Logo" onerror="this.src='/api/placeholder/100/100'; this.onerror=null;" />
+            <h1 class="university-name">Okean University</h1>
+        </div>
     </div>
-    <div class="university-logo">
-        <img src="/assets/logo.png" alt="Okean University Logo" onerror="this.src='/api/placeholder/100/100'; this.onerror=null;" />
-        <h1 class="university-name">Okean University</h1>
-    </div>
-</div>
 
-<div class="container">
-    <div class="login-container">
-        <div class="login-box">
-            <div class="login-header">
-                <h2>Đăng nhập</h2>
-                <p class="login-subtitle">Hệ thống quản lý sinh viên</p>
-            </div>
-
-            @if (ViewBag.ErrorMessage != null)
-            {
-                <div class="alert alert-danger shake-animation">
-                    <i class="fas fa-exclamation-circle"></i>
-                    @ViewBag.ErrorMessage
-                </div>
-            }
-
-            <form asp-controller="Account" asp-action="Login" method="post" class="login-form">
-                <div class="form-group animated-input">
-                    <input type="text" name="username" id="username" class="form-control" required />
-                    <label for="username">Tên đăng nhập</label>
-                    <span class="input-focus-border"></span>
+    <div class="container">
+        <div class="login-container">
+            <div class="login-box">
+                <div class="login-header">
+                    <h2>Đăng nhập</h2>
+                    <p class="login-subtitle">Hệ thống quản lý sinh viên</p>
                 </div>
 
-                <div class="form-group animated-input">
-                    <input type="password" name="password" id="password" class="form-control" required />
-                    <label for="password">Mật khẩu</label>
-                    <span class="input-focus-border"></span>
-                    <span class="password-toggle" onclick="togglePassword()">
-                        <i class="fas fa-eye"></i>
-                    </span>
-                </div>
-
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="rememberMe" name="rememberMe">
-                    <label class="form-check-label" for="rememberMe">Ghi nhớ đăng nhập</label>
-                </div>
-
-                <div class="login-actions">
-                    <button type="submit" class="btn btn-ocean-login btn-block">Đăng nhập</button>
-                    <div class="register-link">
-                        Chưa có tài khoản? <a asp-action="Register" asp-controller="Account">Đăng ký</a>
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <div class="alert alert-danger shake-animation">
+                        <i class="fas fa-exclamation-circle"></i>
+                        @ViewBag.ErrorMessage
                     </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+                }
 
-@if (TempData["SuccessMessage"] != null)
-{
-    <div class="success-notification" id="successNotification">
-        <div class="notification-content">
-            <i class="fas fa-check-circle"></i>
-            <span>@TempData["SuccessMessage"]</span>
+                <form asp-controller="Account" asp-action="Login" method="post" class="login-form">
+                    <div class="form-group animated-input">
+                        <input type="text" name="username" id="username" class="form-control" required />
+                        <label for="username">Tên đăng nhập</label>
+                        <span class="input-focus-border"></span>
+                    </div>
+
+                    <div class="form-group animated-input">
+                        <input type="password" name="password" id="password" class="form-control" required />
+                        <label for="password">Mật khẩu</label>
+                        <span class="input-focus-border"></span>
+                        <span class="password-toggle" onclick="togglePassword()">
+                            <i class="fas fa-eye"></i>
+                        </span>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="rememberMe" name="rememberMe">
+                        <label class="form-check-label" for="rememberMe">Ghi nhớ đăng nhập</label>
+                    </div>
+
+                    <div class="login-actions">
+                        <button type="submit" class="btn btn-ocean-login btn-block">Đăng nhập</button>
+                        <div class="register-link">
+                            Chưa có tài khoản? <a asp-action="Register" asp-controller="Account">Đăng ký</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-    <script>
-        setTimeout(function() {
-            document.getElementById('successNotification').classList.add('show');
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="success-notification" id="successNotification">
+            <div class="notification-content">
+                <i class="fas fa-check-circle"></i>
+                <span>@TempData["SuccessMessage"]</span>
+            </div>
+        </div>
+        <script>
             setTimeout(function() {
-                document.getElementById('successNotification').classList.remove('show');
-            }, 3000);
-        }, 300);
-    </script>
-}
-
-<script>
-    function togglePassword() {
-        var passwordField = document.getElementById('password');
-        var icon = document.querySelector('.password-toggle i');
-
-        if (passwordField.type === 'password') {
-            passwordField.type = 'text';
-            icon.classList.remove('fa-eye');
-            icon.classList.add('fa-eye-slash');
-        } else {
-            passwordField.type = 'password';
-            icon.classList.remove('fa-eye-slash');
-            icon.classList.add('fa-eye');
-        }
+                document.getElementById('successNotification').classList.add('show');
+                setTimeout(function() {
+                    document.getElementById('successNotification').classList.remove('show');
+                }, 3000);
+            }, 300);
+        </script>
     }
 
-    // Thêm animation cho các input khi focus
-    document.addEventListener('DOMContentLoaded', function() {
-        const inputs = document.querySelectorAll('.animated-input input');
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
 
-        inputs.forEach(input => {
-            input.addEventListener('focus', function() {
-                this.parentElement.classList.add('focused');
-            });
+    <script>
+        function togglePassword() {
+            var passwordField = document.getElementById('password');
+            var icon = document.querySelector('.password-toggle i');
 
-            input.addEventListener('blur', function() {
-                if (this.value === '') {
-                    this.parentElement.classList.remove('focused');
+            if (passwordField.type === 'password') {
+                passwordField.type = 'text';
+                icon.classList.remove('fa-eye');
+                icon.classList.add('fa-eye-slash');
+            } else {
+                passwordField.type = 'password';
+                icon.classList.remove('fa-eye-slash');
+                icon.classList.add('fa-eye');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const inputs = document.querySelectorAll('.animated-input input');
+
+            inputs.forEach(input => {
+                input.addEventListener('focus', function() {
+                    this.parentElement.classList.add('focused');
+                });
+
+                input.addEventListener('blur', function() {
+                    if (this.value === '') {
+                        this.parentElement.classList.remove('focused');
+                    }
+                });
+
+                if (input.value !== '') {
+                    input.parentElement.classList.add('focused');
                 }
             });
-
-            // Check if input has value on page load
-            if (input.value !== '') {
-                input.parentElement.classList.add('focused');
-            }
         });
-    });
-</script>
+    </script>
+</body>
+</html>

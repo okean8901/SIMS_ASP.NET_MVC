@@ -1,178 +1,190 @@
-﻿@model StudentManagementSystem.Models.DTOs.UserDTO
-@{
-    ViewData["Title"] = "Đăng ký tài khoản";
-}
-
-<div class="ocean-header register-header">
-    <div class="wave-container">
-        <div class="wave wave1"></div>
-        <div class="wave wave2"></div>
-    </div>
-    <div class="university-logo">
-        <img src="/assets/logo.png" alt="Okean University Logo" onerror="this.src='/api/placeholder/100/100'; this.onerror=null;" />
-        <h1 class="university-name">Okean University</h1>
-    </div>
-</div>
-
-<div class="container">
-    <div class="register-container">
-        <div class="register-box">
-            <div class="register-header">
-                <h2>Đăng ký tài khoản</h2>
-                <p class="register-subtitle">Okean University - Hệ thống quản lý sinh viên</p>
-            </div>
-
-            <form asp-action="Register" method="post" class="register-form">
-                <div class="form-row">
-                    <div class="form-group col-md-6 animated-input">
-                        <input asp-for="Username" class="form-control" id="username" required />
-                        <label asp-for="Username">Tên đăng nhập</label>
-                        <span class="input-focus-border"></span>
-                        <span asp-validation-for="Username" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group col-md-6 animated-input">
-                        <input asp-for="Password" type="password" class="form-control" id="password" required />
-                        <label asp-for="Password">Mật khẩu</label>
-                        <span class="input-focus-border"></span>
-                        <span asp-validation-for="Password" class="text-danger"></span>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group col-md-6 animated-input">
-                        <input asp-for="Email" type="email" class="form-control" id="email" required />
-                        <label asp-for="Email">Email</label>
-                        <span class="input-focus-border"></span>
-                        <span asp-validation-for="Email" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group col-md-6 animated-input">
-                        <input asp-for="FullName" class="form-control" id="fullname" required />
-                        <label asp-for="FullName">Họ và tên</label>
-                        <span class="input-focus-border"></span>
-                        <span asp-validation-for="FullName" class="text-danger"></span>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group col-md-6 animated-input date-input">
-                        <input asp-for="DateOfBirth" type="date" class="form-control" id="dateofbirth" required />
-                        <label asp-for="DateOfBirth">Ngày sinh</label>
-                        <span class="input-focus-border"></span>
-                        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group col-md-6 animated-input">
-                        <input asp-for="Address" class="form-control" id="address" required />
-                        <label asp-for="Address">Địa chỉ</label>
-                        <span class="input-focus-border"></span>
-                        <span asp-validation-for="Address" class="text-danger"></span>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group col-md-6 animated-input">
-                        <input asp-for="Major" class="form-control" id="major" required />
-                        <label asp-for="Major">Chuyên ngành</label>
-                        <span class="input-focus-border"></span>
-                        <span asp-validation-for="Major" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group col-md-6 animated-input">
-                        <input asp-for="BatchYear" type="number" class="form-control" id="batchyear" required />
-                        <label asp-for="BatchYear">Năm nhập học</label>
-                        <span class="input-focus-border"></span>
-                        <span asp-validation-for="BatchYear" class="text-danger"></span>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group col-md-12 animated-input">
-                        <select asp-for="Role" class="form-control" id="role">
-                            <option value="Student">Học sinh</option>
-                            <option value="Teacher">Giáo viên</option>
-                            <option value="Admin">Khác</option>
-                        </select>
-                        <label asp-for="Role">Vai trò</label>
-                        <span class="input-focus-border"></span>
-                        <span asp-validation-for="Role" class="text-danger"></span>
-                    </div>
-                </div>
-
-                <div class="register-actions">
-                    <button type="submit" class="btn btn-ocean-register btn-block">Đăng ký</button>
-                    <div class="login-link">
-                        Đã có tài khoản? <a asp-action="Login" asp-controller="Account">Đăng nhập</a>
-                    </div>
-                </div>
-            </form>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký tài khoản - Okean University</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/common.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/register.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+</head>
+<body>
+    <div class="ocean-header register-header">
+        <div class="wave-container">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+        </div>
+        <div class="university-logo">
+            <img src="/assets/logo.png" alt="Okean University Logo" onerror="this.src='/api/placeholder/100/100'; this.onerror=null;" />
+            <h1 class="university-name">Okean University</h1>
         </div>
     </div>
-</div>
 
-@if (Model != null && Model.IsRegisteredSuccessfully)
-{
+    <div class="container">
+        <div class="register-container">
+            <div class="register-box">
+                <div class="register-header">
+                    <h2>Đăng ký tài khoản</h2>
+                    <p class="register-subtitle">Okean University - Hệ thống quản lý sinh viên</p>
+                </div>
+
+                <form asp-action="Register" method="post" class="register-form">
+                    <div class="form-row">
+                        <div class="form-group col-md-6 animated-input">
+                            <input asp-for="Username" class="form-control" id="username" required />
+                            <label asp-for="Username">Tên đăng nhập</label>
+                            <span class="input-focus-border"></span>
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group col-md-6 animated-input">
+                            <input asp-for="Password" type="password" class="form-control" id="password" required />
+                            <label asp-for="Password">Mật khẩu</label>
+                            <span class="input-focus-border"></span>
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6 animated-input">
+                            <input asp-for="Email" type="email" class="form-control" id="email" required />
+                            <label asp-for="Email">Email</label>
+                            <span class="input-focus-border"></span>
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group col-md-6 animated-input">
+                            <input asp-for="FullName" class="form-control" id="fullname" required />
+                            <label asp-for="FullName">Họ và tên</label>
+                            <span class="input-focus-border"></span>
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6 animated-input date-input">
+                            <input asp-for="DateOfBirth" type="date" class="form-control" id="dateofbirth" required />
+                            <label asp-for="DateOfBirth">Ngày sinh</label>
+                            <span class="input-focus-border"></span>
+                            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group col-md-6 animated-input">
+                            <input asp-for="Address" class="form-control" id="address" required />
+                            <label asp-for="Address">Địa chỉ</label>
+                            <span class="input-focus-border"></span>
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6 animated-input">
+                            <input asp-for="Major" class="form-control" id="major" required />
+                            <label asp-for="Major">Chuyên ngành</label>
+                            <span class="input-focus-border"></span>
+                            <span asp-validation-for="Major" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group col-md-6 animated-input">
+                            <input asp-for="BatchYear" type="number" class="form-control" id="batchyear" required />
+                            <label asp-for="BatchYear">Năm nhập học</label>
+                            <span class="input-focus-border"></span>
+                            <span asp-validation-for="BatchYear" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-12 animated-input">
+                            <select asp-for="Role" class="form-control" id="role">
+                                <option value="Student">Học sinh</option>
+                                <option value="Teacher">Giáo viên</option>
+                                <option value="Admin">Khác</option>
+                            </select>
+                            <label asp-for="Role">Vai trò</label>
+                            <span class="input-focus-border"></span>
+                            <span asp-validation-for="Role" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="register-actions">
+                        <button type="submit" class="btn btn-ocean-register btn-block">Đăng ký</button>
+                        <div class="login-link">
+                            Đã có tài khoản? <a asp-action="Login" asp-controller="Account">Đăng nhập</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    @if (Model != null && Model.IsRegisteredSuccessfully)
+    {
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                Swal.fire({
+                    title: 'Thành công!',
+                    text: 'Đăng ký tài khoản thành công!',
+                    icon: 'success',
+                    confirmButtonText: 'Đăng nhập ngay',
+                    confirmButtonColor: '#1a73e8'
+                }).then((result) => {
+                    window.location.href = '@Url.Action("Login", "Account")';
+                });
+            });
+        </script>
+    }
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            Swal.fire({
-                title: 'Thành công!',
-                text: 'Đăng ký tài khoản thành công!',
-                icon: 'success',
-                confirmButtonText: 'Đăng nhập ngay',
-                confirmButtonColor: '#1a73e8'
-            }).then((result) => {
-                window.location.href = '@Url.Action("Login", "Account")';
+            const inputs = document.querySelectorAll('.animated-input input, .animated-input select');
+
+            inputs.forEach(input => {
+                if (input.value.trim() !== '') {
+                    input.parentElement.classList.add('focused');
+                }
+
+                input.addEventListener('focus', function() {
+                    this.parentElement.classList.add('focused');
+                });
+
+                input.addEventListener('blur', function() {
+                    if (this.value.trim() === '') {
+                        this.parentElement.classList.remove('focused');
+                    }
+                });
+
+                input.addEventListener('change', function() {
+                    if (this.value.trim() !== '') {
+                        this.parentElement.classList.add('focused');
+                    } else {
+                        this.parentElement.classList.remove('focused');
+                    }
+                });
+            });
+
+            const dateInputs = document.querySelectorAll('input[type="date"]');
+            dateInputs.forEach(input => {
+                input.parentElement.classList.add('date-input');
+                if (input.value.trim() !== '') {
+                    input.parentElement.classList.add('focused');
+                }
             });
         });
     </script>
-}
 
-<script>
-        document.addEventListener('DOMContentLoaded', function() {
-        const inputs = document.querySelectorAll('.animated-input input, .animated-input select');
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    }
+</body>
+</html>
 
-        inputs.forEach(input => {
-            // Kiểm tra giá trị ban đầu để thêm class .focused nếu có dữ liệu
-            if (input.value.trim() !== '') {
-                input.parentElement.classList.add('focused');
-            }
-
-            // Xử lý sự kiện focus
-            input.addEventListener('focus', function() {
-                this.parentElement.classList.add('focused');
-            });
-
-            // Xử lý sự kiện blur
-            input.addEventListener('blur', function() {
-                if (this.value.trim() === '') {
-                    this.parentElement.classList.remove('focused');
-                }
-            });
-
-            // Xử lý sự kiện change (đặc biệt hữu ích cho select và date)
-            input.addEventListener('change', function() {
-                if (this.value.trim() !== '') {
-                    this.parentElement.classList.add('focused');
-                } else {
-                    this.parentElement.classList.remove('focused');
-                }
-            });
-        });
-
-        // Xử lý riêng cho input[type="date"] để luôn hiển thị label ở trên
-        const dateInputs = document.querySelectorAll('input[type="date"]');
-        dateInputs.forEach(input => {
-            input.parentElement.classList.add('date-input');
-            // Luôn thêm class .focused cho date input để label ở trên
-            if (input.value.trim() !== '') {
-                input.parentElement.classList.add('focused');
-            }
-        });
-    });
-</script>
-
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-}
+@model StudentManagementSystem.Models.DTOs.UserDTO

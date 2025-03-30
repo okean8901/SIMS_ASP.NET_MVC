@@ -121,5 +121,39 @@ namespace StudentManagementSystem.Repositories
                 .ThenInclude(ur => ur.Role)
                 .FirstOrDefaultAsync();
         }
+        public async Task<IEnumerable<Role>> GetRolesAsync()
+        {
+            return await _context.Roles.ToListAsync();
+        }
+
+        public async Task UpdateUserRoleAsync(int userId, string roleName)
+        {
+            var user = await _context.Users
+                .Include(u => u.UserRoles)
+                .FirstOrDefaultAsync(u => u.UserId == userId);
+
+            if (user == null) return;
+
+            // Remove existing roles
+            _context.UserRoles.RemoveRange(user.UserRoles);
+
+            // Add new role
+            var role = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == roleName);
+            if (role != null)
+            {
+                user.UserRoles.Add(new UserRole { UserId = user.UserId, RoleId = role.RoleId });
+            }
+
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<int> CountAdminsAsync()
+        {
+            return await _context.UserRoles
+                .Where(ur => ur.Role.RoleName == "Admin")
+                .Select(ur => ur.UserId)
+                .Distinct()
+                .CountAsync();
+        }
     }
 }

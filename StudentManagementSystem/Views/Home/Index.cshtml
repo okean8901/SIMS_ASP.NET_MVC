@@ -2,6 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
+<!-- Nội dung trang Home -->
 <div class="ocean-header">
     <div class="wave-container">
         <div class="wave wave1"></div>
@@ -13,6 +14,7 @@
         <h1 class="university-name">Okean University</h1>
     </div>
 </div>
+
 
 <div class="container main-content">
     <div class="text-center welcome-section">
@@ -36,13 +38,13 @@
             }
             else if (User.IsInRole("Student"))
             {
-                <p class="role-text student-role">Chào mừng Sinh viên!</p>
+                <p class="role-text student-role">Chào mừng Sinh viên! <a asp-controller="Student" asp-action="Index" class="dashboard-link">Vào Dashboard</a></p>
             }
         </div>
 
         <div class="info-card">
             <p>Học tập và phát triển tại <span class="highlight">Okean University</span> - Nơi kiến thức gặp gỡ đại dương của cơ hội</p>
-            <p class="small-text">Learn about <a href="https://learn.microsoft.com/aspnet/core" class="info-link">building Web apps with ASP.NET Core</a>.</p>
+           
         </div>
 
         <div class="auth-buttons mt-4">
@@ -77,9 +79,9 @@
     </script>
 }
 
-
-
-
-
-
-
+@section Scripts {
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <script>
+        // Có thể thêm JavaScript bổ sung cho trang Home nếu cần
+    </script>
+}

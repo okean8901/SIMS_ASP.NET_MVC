@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Admin Dashboard";
 }
+
 <div class="container">
     <h1 class="text-center mb-4">Admin Dashboard</h1>
     <div class="row">
@@ -29,23 +30,13 @@
                 <div class="card-body">
                     <h5 class="card-title">User Management</h5>
                     <p class="card-text">Manage users and roles</p>
-                    <a href="#" class="btn btn-warning">Manage Users</a>
+                    <a href="@Url.Action("UserManagement", "Admin")" class="btn btn-warning">Manage Users</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<style>
-    .card {
-        margin-bottom: 20px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
 
-    .card-body {
-        text-align: center;
-    }
-
-    .btn {
-        margin-top: 10px;
-    }
-</style>
+@section Scripts {
+    <link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
+}
