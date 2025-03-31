@@ -20,9 +20,7 @@ namespace StudentManagementSystem.Controllers
             _studentRepository = studentRepository;
         }
 
-        public AccountController()
-        {
-        }
+        
 
         [HttpGet]
         public IActionResult Register()
