@@ -89,15 +89,15 @@ namespace StudentManagementSystem.Repositories
             await _context.SaveChangesAsync();
         }
 
-        // Phương thức chưa triển khai từ IRepository<Course>
-        Task<IEnumerable<Course>> IRepository<Course>.GetAllAsync()
+        
+        internal async Task AssignCourseToStudentAsync(int studentId, int courseId)
         {
             throw new NotImplementedException();
         }
 
-        internal async Task AssignCourseToStudentAsync(int studentId, int courseId)
+        Task<IEnumerable<Course>> IRepository<Course>.GetAllAsync()
         {
             throw new NotImplementedException();
-        } 
+        }
     }
 }
