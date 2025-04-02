@@ -8,11 +8,15 @@ public class StudentController : Controller
 {
     private readonly StudentData _studentData;
 
-    public StudentController(ApplicationDbContext context)
+    // Inject StudentData instead of ApplicationDbContext
+    public StudentController(StudentData studentData)
     {
-        _studentData = StudentData.GetInstance(context);
-
+        _studentData = studentData;
     }
+
+    //public StudentController()
+    //{
+    //}
 
     public IActionResult Index()
     {
@@ -25,11 +29,10 @@ public class StudentController : Controller
 
         int userId = int.Parse(userIdClaim);
 
-        // Fetch student enrollments using Singleton
+        // Fetch student enrollments
         List<Enrollment> enrollments = _studentData.GetStudentEnrollments(userId);
 
         return View(enrollments);
-
     }
 
 }

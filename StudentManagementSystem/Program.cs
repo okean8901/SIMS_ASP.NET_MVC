@@ -32,9 +32,10 @@ namespace StudentManagementSystem
             builder.Services.AddScoped<EnrollmentRepository>();
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+            builder.Services.AddSingleton<StudentData>(sp => StudentData.GetInstance(sp));
 
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
