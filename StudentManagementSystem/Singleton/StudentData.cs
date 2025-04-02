@@ -8,14 +8,14 @@ public class StudentData
 {
     private static StudentData _instance;
     private static readonly object _lock = new object();
-    private readonly ApplicationDbContext _context;
+    private readonly IServiceProvider _serviceProvider; // Store service provider
 
-    private StudentData(ApplicationDbContext context)
+    private StudentData(IServiceProvider serviceProvider)
     {
-        _context = context;
+        _serviceProvider = serviceProvider;
     }
 
-    public static StudentData GetInstance(ApplicationDbContext context)
+    public static StudentData GetInstance(IServiceProvider serviceProvider)
     {
         if (_instance == null)
         {
@@ -23,7 +23,7 @@ public class StudentData
             {
                 if (_instance == null)
                 {
-                    _instance = new StudentData(context);
+                    _instance = new StudentData(serviceProvider);
                 }
             }
         }
@@ -32,15 +32,19 @@ public class StudentData
 
     public List<Enrollment> GetStudentEnrollments(int userId)
     {
-        var student = _context.Students.FirstOrDefault(s => s.UserId == userId);
+        using var scope = _serviceProvider.CreateScope();
+        var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>(); // Get a fresh DbContext
+
+        var student = context.Students.FirstOrDefault(s => s.UserId == userId);
         if (student == null)
         {
-            return new List<Enrollment>(); // Return empty list if student not found
+            return new List<Enrollment>();
         }
 
-        return _context.Enrollments
-                       .Where(e => e.StudentId == student.StudentId)
-                       .Include(e => e.Course) // Include course details if needed
-                       .ToList();
+        return context.Enrollments
+                      .Where(e => e.StudentId == student.StudentId)
+                      .Include(e => e.Course)
+                      .ToList();
     }
 }
+
