@@ -8,7 +8,6 @@ T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystemTest
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystemTest\bin\Debug\net8.0\testhost.dll
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystemTest\bin\Debug\net8.0\StudentManagementSystem.deps.json
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystemTest\bin\Debug\net8.0\StudentManagementSystem.runtimeconfig.json
-T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystemTest\bin\Debug\net8.0\appsettings.Development (2).json
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystemTest\bin\Debug\net8.0\appsettings.Development.json
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystemTest\bin\Debug\net8.0\appsettings.json
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystemTest\bin\Debug\net8.0\StudentManagementSystem.staticwebassets.runtime.json

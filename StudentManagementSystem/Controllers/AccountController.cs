@@ -20,9 +20,9 @@ namespace StudentManagementSystem.Controllers
             _studentRepository = studentRepository;
         }
 
-        public AccountController()
-        {
-        }
+        //public AccountController()
+        //{
+        //}
 
         [HttpGet]
         public IActionResult Register()
@@ -161,3 +161,16 @@ namespace StudentManagementSystem.Controllers
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

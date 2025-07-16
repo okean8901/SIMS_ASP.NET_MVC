@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F89DEBCA-A921-462D-8E7A-5A0FCD57A914}|StudentManagementSystem\\StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F89DEBCA-A921-462D-8E7A-5A0FCD57A914}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89DEBCA-A921-462D-8E7A-5A0FCD57A914}|StudentManagementSystem\\StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89DEBCA-A921-462D-8E7A-5A0FCD57A914}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F89DEBCA-A921-462D-8E7A-5A0FCD57A914}|StudentManagementSystem\\StudentManagementSystem.csproj|t:\\source code c#\\apdp_asm_gr2\\apdp_sims_gr2_se06304\\studentmanagementsystem\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{F89DEBCA-A921-462D-8E7A-5A0FCD57A914}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -18,11 +26,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
@@ -33,12 +53,33 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\appsettings.json",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\appsettings.json",
+              "RelativeToolTip": "StudentManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-28T08:56:00.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "StudentManagementSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBAAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:01:59.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\.gitignore",
               "RelativeDocumentMoniker": "StudentManagementSystem\\.gitignore",
@@ -46,12 +87,11 @@
               "RelativeToolTip": "StudentManagementSystem\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-19T10:33:35.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T10:33:35.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem\\Data\\ApplicationDbContext.cs",
@@ -60,6 +100,16 @@
               "ViewState": "AgIAAE4AAAAAAAAAAAAIwGgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T08:12:41.347Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 120,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
