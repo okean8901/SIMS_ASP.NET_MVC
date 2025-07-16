@@ -1,4 +1,3 @@
-T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\appsettings.Development (2).json
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\appsettings.Development.json
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\appsettings.json
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\bin\Debug\net8.0\StudentManagementSystem.staticwebassets.runtime.json
@@ -196,3 +195,4 @@ T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\obj
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.pdb
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.genruntimeconfig.cache
 T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\obj\Debug\net8.0\ref\StudentManagementSystem.dll
+T:\Source code c#\APDP_ASM_GR2\APDP_SIMS_GR2_SE06304\StudentManagementSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

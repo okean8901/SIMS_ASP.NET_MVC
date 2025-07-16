@@ -20,8 +20,6 @@ namespace StudentManagementSystem.Controllers
             _studentRepository = studentRepository;
         }
 
-        
-
         [HttpGet]
         public IActionResult Register()
         {
@@ -159,3 +157,16 @@ namespace StudentManagementSystem.Controllers
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
