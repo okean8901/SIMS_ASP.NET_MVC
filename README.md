@@ -35,6 +35,9 @@ dotnet ef database update
 dotnet run
 - Sau khi chạy thành công, truy cập trình duyệt tại địa chỉ: `https://localhost:5001` hoặc `http://localhost:5000`
 
+### 6. File Docx Test
+https://docs.google.com/document/d/1sUxWvlyShip8uNSsPq4XQ8K4xCsIuQrJNnUYlTSNchA/edit?usp=sharing
+
 ## Thông tin liên hệ
 - Nhóm phát triển: APDP_ASM_GR2
 - Email: <phamletruong2001@gmail.com>
