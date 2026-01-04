@@ -7035,11 +7035,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystemTest\\StudentManagementSystemTest.csproj",
+      "projectUniqueName": "D:\\CODE\\SIMS_ASP.NET_MVC\\SIMS_ASP.NET_MVC\\StudentManagementSystemTest\\StudentManagementSystemTest.csproj",
       "projectName": "StudentManagementSystemTest",
-      "projectPath": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystemTest\\StudentManagementSystemTest.csproj",
+      "projectPath": "D:\\CODE\\SIMS_ASP.NET_MVC\\SIMS_ASP.NET_MVC\\StudentManagementSystemTest\\StudentManagementSystemTest.csproj",
       "packagesPath": "C:\\Users\\trang\\.nuget\\packages\\",
-      "outputPath": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystemTest\\obj\\",
+      "outputPath": "D:\\CODE\\SIMS_ASP.NET_MVC\\SIMS_ASP.NET_MVC\\StudentManagementSystemTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7054,15 +7054,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\StudentManagementSystem.csproj": {
-              "projectPath": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\StudentManagementSystem.csproj"
+            "D:\\CODE\\SIMS_ASP.NET_MVC\\SIMS_ASP.NET_MVC\\StudentManagementSystem\\StudentManagementSystem.csproj": {
+              "projectPath": "D:\\CODE\\SIMS_ASP.NET_MVC\\SIMS_ASP.NET_MVC\\StudentManagementSystem\\StudentManagementSystem.csproj"
             }
           }
         }
@@ -7077,7 +7076,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -7134,7 +7133,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

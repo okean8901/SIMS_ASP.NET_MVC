@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9YmQE+UjbKE=",
+  "dgSpecHash": "sgS//5AbZfw=",
   "success": true,
-  "projectFilePath": "T:\\Source code c#\\APDP_ASM_GR2\\APDP_SIMS_GR2_SE06304\\StudentManagementSystem\\StudentManagementSystem.csproj",
+  "projectFilePath": "D:\\CODE\\SIMS_ASP.NET_MVC\\SIMS_ASP.NET_MVC\\StudentManagementSystem\\StudentManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trang\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\trang\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
