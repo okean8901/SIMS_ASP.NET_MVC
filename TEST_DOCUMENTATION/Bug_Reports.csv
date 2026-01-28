@@ -1,0 +1,27 @@
+Bug ID,TC ID,Tiêu đề Bug,Mô tả Lỗi,Bước Tái Hiện,Kết quả Mong Đợi,Kết quả Thực Tế,Mức độ Nghiêm Trọng,Trạng thái,Người Xử Lý,Ghi Chú
+BUG001,TC002,Username validation không hoạt động,"Khi nhập username trùng lặp, hệ thống không hiển thị lỗi","1. Register
+2. Nhập username ""admin""
+3. Click Register",Hiển thị: "Username đã được đăng ký",Tài khoản được tạo thành công (lỗi),HIGH,Open,Dev Team,Cần kiểm tra logic validation
+BUG002,TC003,Email validation không chặn email không hợp lệ,Email không hợp lệ vẫn được tạo tài khoản,"1. Register
+2. Nhập email ""invalidemail""
+3. Click Register",Hiển thị lỗi email không hợp lệ,Tài khoản được tạo với email sai,MEDIUM,Open,Dev Team,Thêm regex validation
+BUG003,TC008,Thông báo lỗi đăng nhập quá chung chung,Login thất bại nhưng không rõ nguyên nhân,Đăng nhập sai password,Thông báo rõ: "Password không chính xác",Thông báo: "Username/Password sai",LOW,Open,Dev Team,Cải thiện UX
+BUG004,TC013,Xóa khóa học nhưng enrollment vẫn tồn tại,"Khi xóa khóa học, các enrollment không bị xóa","1. Add course
+2. Enroll student
+3. Delete course",Xóa course và all enrollment,Course bị xóa nhưng enrollment vẫn tồn tại,HIGH,Open,Dev Team,Cần cascade delete
+BUG005,TC016,Ghi danh sinh viên thất bại ngầm lặng,Click enroll nhưng không thấy thay đổi gì,"1. Assign Course
+2. Select student & course
+3. Click Enroll",Thông báo success & reload danh sách,Không có thông báo gì,MEDIUM,Open,Dev Team,Thêm toast notification
+BUG006,TC018,Student Dashboard không hiển thị enrolled courses,Sinh viên vào Dashboard nhưng không thấy khóa học,"1. Login as Student
+2. Navigate to Dashboard",Hiển thị danh sách khóa học đã ghi danh,Danh sách trống,HIGH,Open,Dev Team,Kiểm tra query database
+BUG007,TC022,Logout không xóa session/cookies,Sau khi logout vẫn có thể access tài khoản,"1. Login
+2. Click Logout
+3. Truy cập Student Dashboard",Redirect about Home; không thể vào Student Dashboard,Vẫn có thể vào Student Dashboard,HIGH,Open,Dev Team,Session/Cookie chưa được xóa
+BUG008,TC001,Input sanitization: XSS vulnerability,Có thể nhập JavaScript code trong Username,"1. Register
+2. Username: <script>alert('xss')</script>
+3. Submit",Lỗi validation hoặc sanitize,Username được lưu với code JS,HIGH,Open,Security Team,Cần implement input validation
+BUG009,TC010,Không validate StartDate > EndDate,Có thể tạo course với EndDate < StartDate,"1. Add Course
+2. StartDate: 01/02/2026
+3. EndDate: 01/01/2026",Lỗi validation,Course được tạo với date sai,MEDIUM,Open,Dev Team,Thêm validation date range
+BUG010,TC020,Status Code không đúng khi access forbidden,Truy cập unauthorized page trả về 500 thay 403,"1. Student login
+2. Access /Admin/Dashboard",HTTP 403 Forbidden,HTTP 500 Internal Server Error,MEDIUM,Open,Dev Team,Kiểm tra error handling
